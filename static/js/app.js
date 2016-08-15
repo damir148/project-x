@@ -10,7 +10,12 @@ project.config(function($routeProvider, $locationProvider) {
 				templateUrl: 'home/bna',
 				controller: 'bnaController'
 			})
-				
+
+			.when('/postcode', {
+				templateUrl: 'home/postcode',
+				controller: 'bnaController'
+			})
+	
 			.when('/upload/hero', {
 				templateUrl: 'home/upload_hero',
 				controller: 'form2Controller'

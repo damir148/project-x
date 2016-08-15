@@ -55,6 +55,10 @@ class Home extends CI_Controller {
 		$this->load->view( "ng-partials/keywords.html" );
 	}
 
+	public function postcode() {
+		$this->load->view( "ng-partials/postcode.php" );
+	}
+
 }
 
 /* End of file Home.php */
