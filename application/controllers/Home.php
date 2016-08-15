@@ -39,8 +39,13 @@ class Home extends CI_Controller {
 		$this->load->view('ng-partials/product_get_found.php');
 	}
 
-	public function suggestions() {
-		$this->load->view('ng-partials/suggestions.php');
+	public function suggestions( $version = 0 ) {
+		if ( !$version ) {
+			$this->load->view('ng-partials/suggestions.php');
+		}
+		else {
+			$this->load->view("ng-partials/suggestions-{$version}.php");
+		}
 	}
 
 	public function product($product_name) {

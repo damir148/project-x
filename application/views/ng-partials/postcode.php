@@ -2,6 +2,7 @@
 
 <label>Location
 	<select ng-model="selectedArea">
+		<option value="" selected="selected">Enter suburb, town, city, or postcode</option>
 		<option value="melb">Melbourne</option>
 		<option value="syd">Sydney</option>
 	</select>
@@ -9,42 +10,40 @@
 
 <div ng-show="selectedArea == 'melb'">
 	<p>Melbourne areas to add</a>
-
-	<ul class="accordion" data-accordion data-multi-expand="true">
+	<ul class="accordion suburb-accordion" data-accordion data-multi-expand="true">
 		<li class="accordion-item" data-accordion-item>
 			<a href="#" class="accordion-title">Inner City</a>
 			<div class="accordion-content" data-tab-content>
 				<ul>
-					<li>Albert Park</li>
-					<li>Docklands</li>
-					<li>Flemington</li>
-					<li>Hotham Hill</li>
-					<li>Kensington</li>
+					<li 
+						ng-repeat="suburb in ['Albert Park', 'Docklands', 'Flemington', 'Hotham Hill', 'Kensington' ]"
+						ng-class="{'is-selected':isSelected}"
+			   			ng-click="isSelected= !isSelected">{{suburb}}<span class="active-item">&#10004;</span></li>
 				</ul>
 			</div>
 		</li>
 		<li class="accordion-item" data-accordion-item>
 			<a href="#" class="accordion-title">East</a>
 			<div class="accordion-content" data-tab-content>
-			  <p>Hello East</p>
+			  <p>East Suburbs</p>
 			</div>
 		</li>
 		<li class="accordion-item" data-accordion-item>
 			<a href="#" class="accordion-title">North</a>
 			<div class="accordion-content" data-tab-content>
-			  <p>Hello North</p>
+			  <p>North Suburbs</p>
 			</div>
 		</li>
 		<li class="accordion-item" data-accordion-item>
 			<a href="#" class="accordion-title">North East</a>
 			<div class="accordion-content" data-tab-content>
-			  <p>Hello North East</p>
+			  <p>North East Suburbs</p>
 			</div>
 		</li>
 		<li class="accordion-item" data-accordion-item>
 			<a href="#" class="accordion-title">Phillip Island</a>
 			<div class="accordion-content" data-tab-content>
-			  <p>Hello Phillip Island</p>
+			  <p>Phillip Island Suburbs</p>
 			</div>
 		</li>
 	</ul>
