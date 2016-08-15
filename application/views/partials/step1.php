@@ -1,13 +1,20 @@
-<h3>Add your contact details</h3>
-<p>List any contact details you'd like featured in your ad so customers can get in touch.</p>
+<h3>Lets create your listing.</h3>
+<p>Bring your listing to life by adding content. Fill in the following details and preview your listing.</p>
 
-<!-- <div class="callout">
-	<div class="success progress" role="progressbar" tabindex="0" aria-valuenow="25" aria-valuemin="0" aria-valuetext="25 percent" aria-valuemax="100">
-	  <div class="progress-meter" style="width: 25%">
-	    <p class="progress-meter-text">25%</p>
-	  </div>
-	</div>
-</div> -->
+<ul class="top-info">
+	<li class="house">
+		<h4>The basics</h4>
+		<p>List your contact details and basic business details.</p>
+	</li>
+	<li class="billboard">
+		<h4>Optimise your ad</h4>
+		<p>Tell us about your services and select keywords that can help your listing sit higher in search results.</p>
+	</li>
+	<li class="acorns">
+		<h4>Media</h4>
+		<p>Upload any media including images, video and PDFs you want to have displayed in your listing.</p>
+	</li>
+</ul>
 
 <hr>
 
