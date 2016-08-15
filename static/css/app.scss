@@ -413,3 +413,9 @@ $product-get-found-color: #ab2281;
 		}
 	}
 }
+
+.accordion .accordion-content {
+	select {
+		display: inline-block;
+	}
+}
