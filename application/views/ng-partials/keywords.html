@@ -1,0 +1,15 @@
+<h3>Tap the keyword that best fit your business</h3>
+<p>We found some keywords you can add to your listing to help customers find you when searching for your service on Yellow Pages or Google, and can help your ad rank higher.</p>
+
+<hr />
+
+<div class="inline" ng-repeat="n in ['building contractors', 'construction', 'building services', 'residential builders', 'home construction', 'building desgin and construction' ,'building projects', 'latest building technology', 'architecture', 'building works' ]">
+	<span class="button text-left-important selectable-button"
+	   ng-class="{'is-selected':isSelected}"
+	   ng-click="isSelected= !isSelected">{{ n }} +</span>
+</div>
+
+<div class="input-group">
+	<button class="expanded button main-btn" style="margin-bottom: 10px; background-color: #c3c3c3;">Show more</button>
+	<a class="expanded button main-btn" href="#/upload/hero">Next</a>
+</div>
