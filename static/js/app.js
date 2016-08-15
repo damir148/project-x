@@ -31,6 +31,11 @@ project.config(function($routeProvider, $locationProvider) {
 				controller: 'form2Controller'
 			})
 
+			.when('/suggestions/v2', {
+				templateUrl: 'home/suggestions/v2',
+				controller: 'form2Controller'
+			})
+
 			.when('/product/extend-reach', {
 				templateUrl: 'home/extend_reach',
 				controller: 'form2Controller'
