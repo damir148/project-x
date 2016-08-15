@@ -1,6 +1,7 @@
 <html>
 	<head>
 		<title>Sensis</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<style>
 			* {
 				margin: 0;
@@ -14,9 +15,9 @@
 		</style>
 	</head>
 	<body>
-		<img src="static/img/homepage_01.jpg" />
-		<a href="/#/">
-			<img src="static/img/homepage_02.jpg" />
+		<img src="/static/img/homepage_01.jpg" />
+		<a href="/#/bna">
+			<img src="/static/img/homepage_02.jpg" />
 		</a>
 	</body>
 </html>

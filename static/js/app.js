@@ -2,6 +2,11 @@ project.config(function($routeProvider, $locationProvider) {
 				
 		$routeProvider
 			.when('/', {
+				templateUrl: 'homepage/index',
+				controller: 'redirectHomepage'
+			})
+
+			.when('/bna', {
 				templateUrl: 'home/bna',
 				controller: 'bnaController'
 			})
@@ -66,6 +71,10 @@ project.config(function($routeProvider, $locationProvider) {
 				})
 		        
 });
+
+project.controller('redirectHomepage', function(){
+	window.location.href = BASE_URL + 'homepage/index';
+})
 
 project.controller('mainController', function($scope, $location) {		
 		slowScroll();
