@@ -369,6 +369,7 @@ $product-get-found-color: #ab2281;
 
 .suburb-accordion {
 	font-family: NettoWeb-Bold;
+    font-size: 1.25em;
 
 	.accordion-item {
 		background: #ecf0f1;
@@ -406,9 +407,9 @@ $product-get-found-color: #ab2281;
 			border-radius: 30px;
 			border: 1px solid black;
 			display: inline-block;
-			width: 20px;
-			height: 20px;
-			padding-left: 3px;
+			width: 25px;
+			height: 25px;
+			padding-left: 4px;
 			float: right;
 
 			&.is-selected {
