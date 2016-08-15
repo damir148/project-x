@@ -403,6 +403,10 @@ $product-get-found-color: #ab2281;
 		list-style-type: none;
 		margin-left: 0;
 
+		li {
+			padding-bottom: 1em;
+		}
+
 		.active-item {
 			border-radius: 30px;
 			border: 1px solid black;

@@ -404,6 +404,10 @@ h6 {
   margin-left: 0;
 }
 
+.suburb-accordion ul li {
+  padding-bottom: 1em;
+}
+
 .suburb-accordion ul .active-item {
   border-radius: 30px;
   border: 1px solid black;
