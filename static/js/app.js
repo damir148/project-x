@@ -13,7 +13,7 @@ project.config(function($routeProvider, $locationProvider) {
 
 			.when('/postcode', {
 				templateUrl: 'home/postcode',
-				controller: 'bnaController'
+				controller: 'postcodeController'
 			})
 	
 			.when('/upload/hero', {
@@ -79,6 +79,11 @@ project.config(function($routeProvider, $locationProvider) {
 
 project.controller('redirectHomepage', function(){
 	window.location.href = BASE_URL + 'homepage/index';
+})
+
+project.controller('postcodeController', function(){
+	$(document).foundation();
+	console.log('test');
 })
 
 project.controller('mainController', function($scope, $location) {		

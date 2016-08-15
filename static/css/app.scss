@@ -366,3 +366,21 @@ $product-get-found-color: #ab2281;
 .red {
 	color: red !important;
 }
+
+.accordion-item {
+	background: #ecf0f1;
+	border: none;
+	margin-bottom: 10px;
+
+	a {
+		color: #000;
+
+		&:hover {
+			color: #000;
+		}
+	}
+
+	.accordion-content {
+		border-bottom: 1px solid #e6e6e6;
+	}
+}

@@ -367,3 +367,21 @@ h6 {
 .red {
   color: red !important;
 }
+
+.accordion-item {
+  background: #ecf0f1;
+  border: none;
+  margin-bottom: 10px;
+}
+
+.accordion-item a {
+  color: #000;
+}
+
+.accordion-item a:hover {
+  color: #000;
+}
+
+.accordion-item .accordion-content {
+  border-bottom: 1px solid #e6e6e6;
+}
