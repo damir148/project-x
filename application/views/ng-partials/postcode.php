@@ -2,6 +2,7 @@
 
 <label>Location
 	<select ng-model="selectedArea">
+		<option value="" selected="selected">Enter suburb, town, city, or postcode</option>
 		<option value="melb">Melbourne</option>
 		<option value="syd">Sydney</option>
 	</select>
