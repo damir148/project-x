@@ -384,3 +384,32 @@ $product-get-found-color: #ab2281;
 		border-bottom: 1px solid #e6e6e6;
 	}
 }
+
+.top-info {
+	list-style: none;
+	margin: 20px 0 0 0;
+	
+	li {
+		margin-bottom: 20px;
+		padding-left: 100px;
+		position: relative;
+		
+		&::before {
+			position: absolute;
+			left: 0;
+			top: 0;
+		}
+		
+		&.house::before {
+			content: url('../img/step1/house.gif');			
+		}
+		
+		&.billboard::before {
+			content: url('../img/step1/billboard.gif');			
+		}
+		
+		&.acorns::before {
+			content: url('../img/step1/acorns.gif');			
+		}
+	}
+}
