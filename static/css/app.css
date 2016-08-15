@@ -368,22 +368,59 @@ h6 {
   color: red !important;
 }
 
-.accordion-item {
+.suburb-accordion {
+  font-family: NettoWeb-Bold;
+}
+
+.suburb-accordion .accordion-item {
   background: #ecf0f1;
   border: none;
   margin-bottom: 10px;
 }
 
-.accordion-item a {
+.suburb-accordion .accordion-item a {
   color: #000;
 }
 
-.accordion-item a:hover {
+.suburb-accordion .accordion-item a:hover {
   color: #000;
 }
 
-.accordion-item .accordion-content {
+.suburb-accordion .accordion-item .accordion-title:before {
+  content: '';
+}
+
+.suburb-accordion .accordion-item.is-active .accordion-title {
+  color: green;
+}
+
+.suburb-accordion .accordion-item .accordion-content {
   border-bottom: 1px solid #e6e6e6;
+}
+
+.suburb-accordion ul {
+  list-style-type: none;
+  margin-left: 0;
+}
+
+.suburb-accordion ul .active-item {
+  border-radius: 30px;
+  border: 1px solid black;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  padding-left: 3px;
+  float: right;
+}
+
+.suburb-accordion ul .active-item.is-selected {
+  color: green;
+  border-color: green;
+}
+
+.suburb-accordion ul .is-selected .active-item {
+  color: green;
+  border-color: green;
 }
 
 .top-info {

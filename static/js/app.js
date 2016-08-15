@@ -13,7 +13,7 @@ project.config(function($routeProvider, $locationProvider) {
 
 			.when('/postcode', {
 				templateUrl: 'home/postcode',
-				controller: 'postcodeController'
+				controller: 'bnaController'
 			})
 	
 			.when('/upload/hero', {
@@ -81,11 +81,6 @@ project.controller('redirectHomepage', function(){
 	window.location.href = BASE_URL + 'homepage/index';
 })
 
-project.controller('postcodeController', function(){
-	$(document).foundation();
-	console.log('test');
-})
-
 project.controller('mainController', function($scope, $location) {		
 		slowScroll();
 			
@@ -97,6 +92,8 @@ project.controller('form2Controller', function($scope) {
 });
 
 project.controller( 'bnaController', function($scope) {
+	$(document).foundation();
+
 	$scope.isActive = false;
   	$scope.activeButton = function() {
     	$scope.isActive = !$scope.isActive;
