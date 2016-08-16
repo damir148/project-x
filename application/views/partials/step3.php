@@ -102,7 +102,7 @@
 				<option>8:15</option>
 				<option>8:30</option>
 				<option>8:45</option>
-				<option>9:00</option>
+				<option selected>9:00</option>
 				<option>9:15</option>
 				<option>9:30</option>
 				<option>9:45</option>
