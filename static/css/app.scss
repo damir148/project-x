@@ -500,6 +500,16 @@ $product-get-found-color: #ab2281;
 		}
 	}
 
+	.right-angle {
+		position:absolute;
+		top: 20px;
+		left: -25px;
+	}
+
+	.relative {
+		position: relative;
+	}
+
 	.callout-clickable {
 		text-transform: uppercase;
 		font-family: NettoWeb-Bold;
@@ -538,6 +548,10 @@ $product-get-found-color: #ab2281;
 			background-color: $product-free-color;
 			color: #fff;
 		}
+
+		.right-angle {
+			color: $product-free-color;
+		}
 	}
 
 	.get-found-listing-section {
@@ -554,6 +568,10 @@ $product-get-found-color: #ab2281;
 			background-color: $product-get-found-color;
 			color: #fff;
 		}
+
+		.right-angle {
+			color: $product-get-found-color;
+		}
 	}
 
 	.extend-reach-listing-section {
@@ -569,6 +587,10 @@ $product-get-found-color: #ab2281;
 		.callout-clickable {
 			background-color: $product-extend-reach-color;
 			color: #fff;
+		}
+
+		.right-angle {
+			color: $product-extend-reach-color;
 		}
 	}
 

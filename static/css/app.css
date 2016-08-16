@@ -494,6 +494,16 @@ h6 {
   font-family: NettoWeb-Bold;
 }
 
+.suggestions-v2 .right-angle {
+  position: absolute;
+  top: 20px;
+  left: -25px;
+}
+
+.suggestions-v2 .relative {
+  position: relative;
+}
+
 .suggestions-v2 .callout-clickable {
   text-transform: uppercase;
   font-family: NettoWeb-Bold;
@@ -532,6 +542,10 @@ h6 {
   color: #fff;
 }
 
+.suggestions-v2 .free-listing-section .right-angle {
+  color: #3d9d46;
+}
+
 .suggestions-v2 .get-found-listing-section .callout {
   padding-top: 0;
 }
@@ -546,6 +560,10 @@ h6 {
   color: #fff;
 }
 
+.suggestions-v2 .get-found-listing-section .right-angle {
+  color: #eb7a24;
+}
+
 .suggestions-v2 .extend-reach-listing-section .callout {
   padding-top: 0;
 }
@@ -558,6 +576,10 @@ h6 {
 .suggestions-v2 .extend-reach-listing-section .callout-clickable {
   background-color: #de1a80;
   color: #fff;
+}
+
+.suggestions-v2 .extend-reach-listing-section .right-angle {
+  color: #de1a80;
 }
 
 .suggestions-v2 .extra-info-stuff {
