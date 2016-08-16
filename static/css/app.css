@@ -743,6 +743,13 @@ h6 {
   cursor: pointer;
 }
 
+#chat-wrapper #chat-container .support-message {
+  font-size: 0.7rem;
+  padding: 20px 20px;
+  font-style: italic;
+  color: #333;
+}
+
 #chat-wrapper #chat-container .body {
   padding: 0 20px;
 }
