@@ -517,6 +517,10 @@ h6 {
   border-right: 10px solid blue;
 }
 
+.suggestions-v2 .callout-clickable i {
+  margin: 0;
+}
+
 .suggestions-v2 button {
   text-transform: uppercase;
   text-align: center;
