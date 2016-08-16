@@ -613,3 +613,15 @@ h6 {
 .accordion .accordion-content .close-button {
   top: 0.7rem;
 }
+
+.accordion .accordion-content .check.circle.icon {
+  float: right;
+  font-weight: normal;
+  font-size: 1.8rem;
+  line-height: 1.1rem;
+  opacity: 0.2;
+}
+
+.accordion .accordion-content .areas {
+  cursor: pointer;
+}
