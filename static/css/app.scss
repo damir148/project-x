@@ -98,6 +98,15 @@ $product-get-found-color: #ab2281;
 			background-color: #fff;
 		}
 	}
+
+	&.speak-to-aspeacialist-btn {
+		background-color: #c2c2c2;
+		color: #000;
+
+		&:hover {
+			background-color: #c2c2c2;
+		}
+	}
 }
 
 .callout-clickable {

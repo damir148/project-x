@@ -93,6 +93,15 @@ h6 {
   background-color: #fff;
 }
 
+.button.speak-to-aspeacialist-btn {
+  background-color: #c2c2c2;
+  color: #000;
+}
+
+.button.speak-to-aspeacialist-btn:hover {
+  background-color: #c2c2c2;
+}
+
 .callout-clickable {
   color: #000;
   display: block;
