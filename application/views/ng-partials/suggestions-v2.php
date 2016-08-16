@@ -18,8 +18,11 @@
 				<p><strong>$0 per month</strong></p>
 				<p>Be found for free with your basic listing.</p>
 			</div>
-			<div class="small-4 columns">	
+			<div class="small-4 columns relative">	
 				<a href="#/step/1" class="callout-clickable">Select product now<i class="angle right icon"></i></a>
+				<div class="right-angle">
+					<i class="caret left icon huge"></i>
+				</div>
 			</div>
 		</div>
 		<div class="columns about" ng-show="showFree">
@@ -42,8 +45,11 @@
 				<p><strong>$51 per month</strong></p>
 				<p>Get found where your customers are looking.</p>
 			</div>
-			<div class="small-4 columns">
+			<div class="small-4 columns relative">
 				<a href="#/step/1" class="callout-clickable">Select product now<i class="angle right icon"></i></a>
+				<div class="right-angle">
+					<i class="caret left icon huge"></i>
+				</div>
 			</div>
 		</div>
 		<div class="columns about" ng-show="showFound">
@@ -70,8 +76,11 @@
 				<p><strong>$175 per month</strong></p>
 				<p>Put your business in front of a wider audience.</p>
 			</div>
-			<div class="small-4 columns">
+			<div class="small-4 columns relative">
 				<a href="#/step/1" class="callout-clickable">Select product now<i class="angle right icon"></i></a>
+				<div class="right-angle">
+					<i class="caret left icon huge"></i>
+				</div>
 			</div>
 		</div>
 		<div class="columns about" ng-show="showReach">
