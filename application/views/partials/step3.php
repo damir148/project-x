@@ -11,7 +11,8 @@
 <hr>
 
 <form class="step3">
-	<ul class="accordion" data-accordion role="tablist">
+		
+	<ul class="accordion" data-accordion role="tablist" data-allow-all-closed="true" data-multi-expand="true">
 	  <li class="accordion-item">
 	    <!-- The tab title needs role="tab", an href, a unique ID, and aria-controls. -->
 	    <a href="#panel1d" role="tab" class="accordion-title" id="panel1d-heading" aria-controls="panel1d">Monday</a>
@@ -198,9 +199,9 @@
 	  </li>
 	  <li class="accordion-item">
 	    <!-- The tab title needs role="tab", an href, a unique ID, and aria-controls. -->
-	    <a href="#panel1d" role="tab" class="accordion-title" id="panel1d-heading" aria-controls="panel1d">Tuesday</a>
+	    <a href="#panel2d" role="tab" class="accordion-title" id="panel2d-heading" aria-controls="panel2d">Tuesday</a>
 	    <!-- The content pane needs an ID that matches the above href, role="tabpanel", data-tab-content, and aria-labelledby. -->
-	    <div id="panel1d" class="accordion-content" role="tabpanel" data-tab-content aria-labelledby="panel1d-heading">
+	    <div id="panel2d" class="accordion-content" role="tabpanel" data-tab-content aria-labelledby="panel2d-heading">
  		  <fieldset>
  			  <legend>From</legend>
 			  
@@ -382,9 +383,9 @@
 	  </li>
 	  <li class="accordion-item">
 	    <!-- The tab title needs role="tab", an href, a unique ID, and aria-controls. -->
-	    <a href="#panel1d" role="tab" class="accordion-title" id="panel1d-heading" aria-controls="panel1d">Wednesday</a>
+	    <a href="#panel3d" role="tab" class="accordion-title" id="panel3d-heading" aria-controls="panel3d">Wednesday</a>
 	    <!-- The content pane needs an ID that matches the above href, role="tabpanel", data-tab-content, and aria-labelledby. -->
-	    <div id="panel1d" class="accordion-content" role="tabpanel" data-tab-content aria-labelledby="panel1d-heading">
+	    <div id="panel3d" class="accordion-content" role="tabpanel" data-tab-content aria-labelledby="panel3d-heading">
  		  <fieldset>
  			  <legend>From</legend>
 			  
@@ -566,9 +567,9 @@
 	  </li>
 	  <li class="accordion-item">
 	    <!-- The tab title needs role="tab", an href, a unique ID, and aria-controls. -->
-	    <a href="#panel1d" role="tab" class="accordion-title" id="panel1d-heading" aria-controls="panel1d">Thursday</a>
+	    <a href="#panel4d" role="tab" class="accordion-title" id="panel4d-heading" aria-controls="panel4d">Thursday</a>
 	    <!-- The content pane needs an ID that matches the above href, role="tabpanel", data-tab-content, and aria-labelledby. -->
-	    <div id="panel1d" class="accordion-content" role="tabpanel" data-tab-content aria-labelledby="panel1d-heading">
+	    <div id="panel4d" class="accordion-content" role="tabpanel" data-tab-content aria-labelledby="panel4d-heading">
  		  <fieldset>
  			  <legend>From</legend>
 			  
@@ -750,9 +751,9 @@
 	  </li>
 	  <li class="accordion-item">
 	    <!-- The tab title needs role="tab", an href, a unique ID, and aria-controls. -->
-	    <a href="#panel1d" role="tab" class="accordion-title" id="panel1d-heading" aria-controls="panel1d">Friday</a>
+	    <a href="#panel5d" role="tab" class="accordion-title" id="panel5d-heading" aria-controls="panel5d">Friday</a>
 	    <!-- The content pane needs an ID that matches the above href, role="tabpanel", data-tab-content, and aria-labelledby. -->
-	    <div id="panel1d" class="accordion-content" role="tabpanel" data-tab-content aria-labelledby="panel1d-heading">
+	    <div id="panel5d" class="accordion-content" role="tabpanel" data-tab-content aria-labelledby="panel5d-heading">
  		  <fieldset>
  			  <legend>From</legend>
 			  
@@ -934,9 +935,9 @@
 	  </li>
 	  <li class="accordion-item">
 	    <!-- The tab title needs role="tab", an href, a unique ID, and aria-controls. -->
-	    <a href="#panel1d" role="tab" class="accordion-title" id="panel1d-heading" aria-controls="panel1d">Saturday</a>
+	    <a href="#panel6d" role="tab" class="accordion-title" id="panel6d-heading" aria-controls="panel6d">Saturday</a>
 	    <!-- The content pane needs an ID that matches the above href, role="tabpanel", data-tab-content, and aria-labelledby. -->
-	    <div id="panel1d" class="accordion-content" role="tabpanel" data-tab-content aria-labelledby="panel1d-heading">
+	    <div id="panel6d" class="accordion-content" role="tabpanel" data-tab-content aria-labelledby="panel6d-heading">
  		  <fieldset>
  			  <legend>From</legend>
 			  
@@ -1108,7 +1109,7 @@
  			  </select>
  		  </fieldset>
 			
-    		 <div class="callout">
+    		 <div class="callout we-are-closed">
     		   <button class="close-button" aria-label="Close alert" type="button">
     		     <span aria-hidden="true">&times;</span>
     		   </button>
@@ -1118,9 +1119,9 @@
 	  </li>
 	  <li class="accordion-item">
 	    <!-- The tab title needs role="tab", an href, a unique ID, and aria-controls. -->
-	    <a href="#panel1d" role="tab" class="accordion-title" id="panel1d-heading" aria-controls="panel1d">Sunday</a>
+	    <a href="#panel7d" role="tab" class="accordion-title" id="panel7d-heading" aria-controls="panel7d">Sunday</a>
 	    <!-- The content pane needs an ID that matches the above href, role="tabpanel", data-tab-content, and aria-labelledby. -->
-	    <div id="panel1d" class="accordion-content" role="tabpanel" data-tab-content aria-labelledby="panel1d-heading">
+	    <div id="panel7d" class="accordion-content" role="tabpanel" data-tab-content aria-labelledby="panel7d-heading">
  		  <fieldset>
  			  <legend>From</legend>
 			  
@@ -1292,7 +1293,7 @@
  			  </select>
  		  </fieldset>
 			
-    		 <div class="callout">
+    		 <div class="callout we-are-closed">
     		   <button class="close-button" aria-label="Close alert" type="button">
     		     <span aria-hidden="true">&times;</span>
     		   </button>
@@ -1312,7 +1313,7 @@
 	$(function(){
 		$('.accordion .callout').click(function(){
 			$(this).siblings('fieldset').find('select').val('-');
-			$(this).css('background', '#e35858');
+			$(this).toggleClass('we-are-closed');
 		});
 	});
 </script>

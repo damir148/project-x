@@ -467,6 +467,10 @@ $product-get-found-color: #ab2281;
 	.callout {
 		background-color: beige;
 		cursor: pointer;
+		
+		&.we-are-closed {
+			background-color: #e35858;
+		}
 	}
 	
 	.callout p {
