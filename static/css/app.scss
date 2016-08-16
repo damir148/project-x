@@ -457,3 +457,115 @@ $product-get-found-color: #ab2281;
 		}
 	}
 }
+
+.suggestions-v2 {
+	$product-free-color: #3d9d46;
+	$product-get-found-color: #eb7a24;
+	$product-extend-reach-color: #de1a80;
+
+	.callout {
+		border: none;
+
+		&.row {
+			margin-left: 0;
+			margin-right: 0;
+			margin-bottom: 0;
+		}
+
+		&.suggestions-hero {
+			background-color: #c2c2c2;
+
+			h3 {
+				margin-bottom: 0;
+			}
+		}
+	}
+
+	.about {
+		margin-bottom: 15px;
+
+		.product-about {
+			text-transform: uppercase;
+			font-size: 0.75em;
+			font-family: NettoWeb-Bold;
+		}
+	}
+
+	.callout-clickable {
+		text-transform: uppercase;
+		font-family: NettoWeb-Bold;
+
+		&:before {
+			width: 0; 
+			height: 0; 
+			border-top: 10px solid transparent;
+			border-bottom: 10px solid transparent; 
+			border-right:10px solid blue; 
+		}
+	}
+
+	button {
+		text-transform: uppercase;
+		text-align: center;
+		border: 1px solid #c2c2c2;
+		display: block;
+		width: 100%;
+		height: 30px;
+		margin-bottom: 15px;
+		color: #c2c2c2;
+	}
+
+	.free-listing-section {
+		.callout {
+			padding-top: 0;
+		}
+
+		.product-title,
+		.product-about {
+			color: $product-free-color;
+		}
+
+		.callout-clickable {
+			background-color: $product-free-color;
+			color: #fff;
+		}
+	}
+
+	.get-found-listing-section {
+		.callout {
+			padding-top: 0;
+		}
+
+		.product-title,
+		.product-about {
+			color: $product-get-found-color;
+		}
+
+		.callout-clickable {
+			background-color: $product-get-found-color;
+			color: #fff;
+		}
+	}
+
+	.extend-reach-listing-section {
+		.callout {
+			padding-top: 0;
+		}
+
+		.product-title,
+		.product-about {
+			color: $product-extend-reach-color;
+		}
+
+		.callout-clickable {
+			background-color: $product-extend-reach-color;
+			color: #fff;
+		}
+	}
+
+	.extra-info-stuff {
+		padding-left: .9375rem;
+		padding-right: .9375rem;
+		margin-bottom: 15px;
+	}
+}
