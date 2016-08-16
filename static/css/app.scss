@@ -412,8 +412,8 @@ $product-get-found-color: #ab2281;
 		list-style-type: none;
 		margin-left: 0;
 
-		li {
-			padding-bottom: 1em;
+		li:not(:last-child) {
+			margin-bottom: 1em;
 		}
 
 		.active-item {
@@ -636,8 +636,14 @@ $product-get-found-color: #ab2281;
 		float: right;
 		font-weight: normal;
 		font-size: 1.8rem;
-		line-height: 1.1rem;
-		opacity: 0.2;
+		line-height: 1.8rem;
+		opacity: 0.6;
+		color: green;
+		
+		&.outline {
+			color: #000;
+			opacity: 0.2;
+		}
 	}
 	
 	.areas {

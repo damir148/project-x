@@ -87,13 +87,13 @@ project.controller('redirectHomepage', function(){
 })
 
 project.controller('mainController', function($scope, $location) {		
-		slowScroll();
+		// slowScroll();
 			
 		$(document).foundation();
 });
 
 project.controller('form2Controller', function($scope) {
-	slowScroll();
+	// slowScroll();
 });
 
 project.controller( 'bnaController', function($scope) {

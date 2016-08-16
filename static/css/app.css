@@ -413,8 +413,8 @@ h6 {
   margin-left: 0;
 }
 
-.suburb-accordion ul li {
-  padding-bottom: 1em;
+.suburb-accordion ul li:not(:last-child) {
+  margin-bottom: 1em;
 }
 
 .suburb-accordion ul .active-item {
@@ -622,7 +622,13 @@ h6 {
   float: right;
   font-weight: normal;
   font-size: 1.8rem;
-  line-height: 1.1rem;
+  line-height: 1.8rem;
+  opacity: 0.6;
+  color: green;
+}
+
+.accordion .accordion-content .check.circle.icon.outline {
+  color: #000;
   opacity: 0.2;
 }
 
