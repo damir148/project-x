@@ -4,7 +4,7 @@
 			<h3>Here's what we found!</h3>
 			<p>We think these solutions best meet your business' needs.</p>
 		</div>
-		<div class="small-4 columns text-right">
+		<div class="small-4 columns text-right fix-my-search-position">
 			<i class="search icon huge"></i>
 		</div>
 	</div>

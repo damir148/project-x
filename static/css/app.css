@@ -504,6 +504,10 @@ h6 {
   position: relative;
 }
 
+.suggestions-v2 .fix-my-search-position {
+  margin-top: 10px;
+}
+
 .suggestions-v2 .callout-clickable {
   text-transform: uppercase;
   font-family: NettoWeb-Bold;
