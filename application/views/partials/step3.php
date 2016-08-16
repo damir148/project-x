@@ -17,33 +17,78 @@
 	    <a href="#panel1d" role="tab" class="accordion-title" id="panel1d-heading" aria-controls="panel1d">Monday</a>
 	    <!-- The content pane needs an ID that matches the above href, role="tabpanel", data-tab-content, and aria-labelledby. -->
 	    <div id="panel1d" class="accordion-content" role="tabpanel" data-tab-content aria-labelledby="panel1d-heading">
-	      
-		  <select>
-			<option>1</option>
-			<option>2</option>
-			<option>3</option>
-			<option>4</option>
-			<option>5</option>
-			<option>6</option>
-			<option>7</option>
-			<option>8</option>
-			<option>9</option>
-			<option>10</option>
-			<option>11</option>
-			<option>12</option>
-		  </select>
+		  <fieldset>
+			  <legend>From</legend>
+			  <select>
+				<option>-</option>
+				<option>1</option>
+				<option>2</option>
+				<option>3</option>
+				<option>4</option>
+				<option>5</option>
+				<option>6</option>
+				<option>7</option>
+				<option>8</option>
+				<option selected>9</option>
+				<option>10</option>
+				<option>11</option>
+				<option>12</option>
+			  </select>
+		  	  
+			  <select>
+				<option>-</option>
+				<option selected>00</option>
+				<option>15</option>
+				<option>30</option>
+				<option>45</option>		
+			  </select>
+		  	  
+			  <select>
+				<option>-</option>
+				<option selected>AM</option>
+				<option>PM</option>
+			  </select>
+		  </fieldset>
 		  
-		  <select>
-			<option>00</option>
-			<option>15</option>
-			<option>30</option>
-			<option>45</option>		
-		  </select>
+		  <fieldset>
+			  <legend>To</legend>
+			  <select>
+				<option>-</option>
+				<option>1</option>
+				<option>2</option>
+				<option>3</option>
+				<option>4</option>
+				<option selected>5</option>
+				<option>6</option>
+				<option>7</option>
+				<option>8</option>
+				<option>9</option>
+				<option>10</option>
+				<option>11</option>
+				<option>12</option>
+			  </select>
 		  
-		  <select>
-			<option>AM</option>
-			<option>PM</option>
-		  </select>
+			  <select>
+				<option>-</option>
+				<option selected>00</option>
+				<option>15</option>
+				<option>30</option>
+				<option>45</option>		
+			  </select>
+		  
+			  <select>
+				<option>-</option>
+				<option>AM</option>
+				<option selected>PM</option>
+			  </select>
+		  </fieldset>
+			
+   		 <div class="callout">
+   		   <button class="close-button" aria-label="Close alert" type="button">
+   		     <span aria-hidden="true">&times;</span>
+   		   </button>
+   		   <p>Sorry we're closed!</p>
+   		 </div>
 			
 	    </div>
 	  </li>
@@ -73,6 +118,8 @@
 
 <script>
 	$(function(){
-		// $('.accordion .accordion-item').toggleClass('is-active');
+		$('.accordion .callout').click(function(){
+			$(this).siblings('fieldset').find('select').val('-');
+		});
 	});
 </script>

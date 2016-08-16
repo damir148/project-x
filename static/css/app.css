@@ -459,4 +459,18 @@ h6 {
 
 .accordion .accordion-content select {
   display: inline-block;
+  width: 32%;
+}
+
+.accordion .accordion-content .callout {
+  background-color: beige;
+  cursor: pointer;
+}
+
+.accordion .accordion-content .callout p {
+  text-align: center;
+}
+
+.accordion .accordion-content .close-button {
+  top: 0.7rem;
 }

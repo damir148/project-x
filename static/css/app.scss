@@ -461,5 +461,19 @@ $product-get-found-color: #ab2281;
 .accordion .accordion-content {
 	select {
 		display: inline-block;
+		width: 32%;
+	}
+	
+	.callout {
+		background-color: beige;
+		cursor: pointer;
+	}
+	
+	.callout p {
+		text-align: center;
+	}
+	
+	.close-button {
+		top: 0.7rem;
 	}
 }
