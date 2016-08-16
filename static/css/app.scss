@@ -607,6 +607,23 @@ $product-get-found-color: #ab2281;
 		padding-right: .9375rem;
 		margin-bottom: 15px;
 	}
+
+	.about.do-animate {
+	  /* this is required as of 1.3x to properlymy-element
+	     apply all styling in a show/hide animation */
+	  transition: 0.5s linear;
+	  height: 150px;
+	  overflow: hidden;
+	}
+
+	.about:not(.do-animate) {
+	  /* this is just another form of hiding an element */
+		height: 0;
+		transition: 0.5s linear;
+		display: block !important;
+		overflow: hidden;
+	}
+
 }
 
 .accordion .accordion-content {
@@ -650,3 +667,6 @@ $product-get-found-color: #ab2281;
 		cursor: pointer;
 	}
 }
+
+
+

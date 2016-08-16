@@ -25,7 +25,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="columns about" ng-show="showFree">
+		<div class="columns about" ng-show="showFree" ng-class="{'do-animate':showFree}">
 			<h6 class="product-about">About Free listings</h6>
 			<p>Business name, address and phone number will appear in the Yellow Pages and White Pages, both in the book and online.</p>
 			<p>Your email address and website will also appear on Yellow Pages online.</p>

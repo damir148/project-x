@@ -596,6 +596,22 @@ h6 {
   margin-bottom: 15px;
 }
 
+.suggestions-v2 .about.do-animate {
+  /* this is required as of 1.3x to properlymy-element
+	     apply all styling in a show/hide animation */
+  transition: 0.5s linear;
+  height: 150px;
+  overflow: hidden;
+}
+
+.suggestions-v2 .about:not(.do-animate) {
+  /* this is just another form of hiding an element */
+  height: 0;
+  transition: 0.5s linear;
+  display: block !important;
+  overflow: hidden;
+}
+
 .accordion .accordion-content select {
   display: inline-block;
   width: 49%;
