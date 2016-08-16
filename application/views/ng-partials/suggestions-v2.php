@@ -19,7 +19,7 @@
 				<p>Be found for free with your basic listing.</p>
 			</div>
 			<div class="small-4 columns">	
-				<a href="#/step/1" class="callout-clickable">Select product now &gt;</a>
+				<a href="#/step/1" class="callout-clickable">Select product now<i class="angle right icon"></i></a>
 			</div>
 		</div>
 		<div class="columns about" ng-show="showFree">
@@ -28,8 +28,8 @@
 			<p>Your email address and website will also appear on Yellow Pages online.</p>
 		</div>
 		<div class="column">
-			<button ng-hide="showFree" ng-click="showFree=true">Learn more ^</button>
-			<button ng-show="showFree" ng-click="showFree=false">Show less ^</button>
+			<button ng-hide="showFree" ng-click="showFree=true">Learn more<i class="angle down icon"></i></button>
+			<button ng-show="showFree" ng-click="showFree=false">Show less<i class="angle up icon"></i></button>
 		</div>
 	</div>
 
@@ -43,7 +43,7 @@
 				<p>Get found where your customers are looking.</p>
 			</div>
 			<div class="small-4 columns">
-				<a href="#/step/1" class="callout-clickable">Select product now &gt;</a>
+				<a href="#/step/1" class="callout-clickable">Select product now<i class="angle right icon"></i></a>
 			</div>
 		</div>
 		<div class="columns about" ng-show="showFound">
@@ -56,8 +56,8 @@
 			</ul>
 		</div>
 		<div class="column">
-			<button ng-hide="showFound" ng-click="showFound=true">Learn more ^</button>
-			<button ng-show="showFound" ng-click="showFound=false">Show less ^</button>
+			<button ng-hide="showFound" ng-click="showFound=true">Learn more<i class="angle down icon"></i></button>
+			<button ng-show="showFound" ng-click="showFound=false">Show less<i class="angle up icon"></i></button>
 		</div>
 	</div>
 
@@ -71,7 +71,7 @@
 				<p>Put your business in front of a wider audience.</p>
 			</div>
 			<div class="small-4 columns">
-				<a href="#/step/1" class="callout-clickable">Select product now &gt;</a>
+				<a href="#/step/1" class="callout-clickable">Select product now<i class="angle right icon"></i></a>
 			</div>
 		</div>
 		<div class="columns about" ng-show="showReach">
@@ -84,8 +84,8 @@
 			</ul>
 		</div>
 		<div class="column">
-			<button ng-hide="showReach" ng-click="showReach=true">Learn more ^</button>
-			<button ng-show="showReach" ng-click="showReach=false">Show less ^</button>
+			<button ng-hide="showReach" ng-click="showReach=true">Learn more<i class="angle down icon"></i></button>
+			<button ng-show="showReach" ng-click="showReach=false">Show less<i class="angle up icon"></i></button>
 		</div>
 	</div>
 
