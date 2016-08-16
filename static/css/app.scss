@@ -611,7 +611,7 @@ $product-get-found-color: #ab2281;
 	.about.do-animate {
 	  /* this is required as of 1.3x to properlymy-element
 	     apply all styling in a show/hide animation */
-	  transition: 0.5s linear;
+	  transition: 0.35s linear;
 	  height: 150px;
 	  overflow: hidden;
 	}
@@ -619,7 +619,7 @@ $product-get-found-color: #ab2281;
 	.about:not(.do-animate) {
 	  /* this is just another form of hiding an element */
 		height: 0;
-		transition: 0.5s linear;
+		transition: 0.35s linear;
 		display: block !important;
 		overflow: hidden;
 	}
