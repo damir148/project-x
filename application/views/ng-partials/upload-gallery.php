@@ -9,5 +9,5 @@
 </div>
 
 <div class="input-group">
-	<a class="expanded button main-btn" href="#/upload/hero">Next</a>
+	<a class="expanded button main-btn" href="#/step/5">Next</a>
 </div>

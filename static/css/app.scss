@@ -650,3 +650,129 @@ $product-get-found-color: #ab2281;
 		cursor: pointer;
 	}
 }
+
+
+.step5 {
+	label {
+		margin-bottom: 20px;
+	}
+
+	strong {
+		display: block;
+	}
+	
+	.click {
+		cursor: pointer;
+		display: block;
+		
+		span {
+			line-height: 3rem;
+		}
+	}
+	
+	.add.icon {
+		color: #1e7be2;
+		font-size: 2rem;
+	}
+
+.add.icon {
+		color: #1e7be2;
+	}
+}
+
+#live-chat {
+	position: fixed;
+	bottom: 8px;
+	right: 8px;
+	z-index: 9999;
+	border: 3px solid #fff;
+	border-radius: 10px;
+	background-color: #fff;
+	box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.2);
+	font-size: 1.8rem;
+	text-align: center;
+	line-height: 1.8rem;
+	color: #427fe1;
+	opacity: 0.8;
+	cursor: pointer;
+	transition: 0.9s all;
+	padding-left: 3px;
+	
+	&:hover {
+		opacity: 1;
+	}
+}
+
+#chat-wrapper {
+	background-color: #e9eef4;
+	position: absolute;
+	right: 0;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	z-index: 9999;
+	box-shadow: -0.5rem 0 1.5rem 0 rgba(32, 34, 40, 0.05);
+	
+	#chat-container {
+		height: 100%;
+		
+		.header {
+			display: block;
+		    font-weight: 400;
+		    text-align: center;
+		    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+		    height: 3rem;
+    		line-height: 3rem;
+    		color: #6c7380;
+		    font-size: 1rem;
+    		
+			.angle.down.icon {
+				float: right;
+				cursor: pointer;
+			}
+		}
+		
+		.body {
+			padding: 0 20px;
+			
+			.messageGroup__date {
+			    background-color: #d1dff0;
+			    border: 1px solid #c7d6e8;
+			    border-radius: 20rem;
+			    color: #7191b8;
+			    display: table;
+			    font-size: 0.75rem;
+			    font-weight: 700;
+			    margin: 0.5rem auto 1rem;
+			    padding: 0.375rem 0.75rem;
+			}
+		}
+		
+		.footer {			
+			.messageInput {
+    			background: #fff none repeat scroll 0 0;
+			    border: 1px solid #a7b1c1;
+			    border-radius: 0.4rem;
+			    display: block;
+			    margin: 0.5rem;
+			    padding: 0.45rem;
+			}
+			
+			.messageInput__container {
+			    display: table;
+			    width: 100%;
+			}
+			
+			.messageInput__button {
+			    background: #a7b1c1 none repeat scroll 0 0;
+			    border: 0 none;
+			    border-radius: 0.3rem;
+			    color: #fff;
+			    font-size: 0.7rem;
+			    letter-spacing: 0.08rem;
+			    padding: 0.5rem 0.9rem;
+				text-transform: uppercase;
+			}
+		}
+	}
+}

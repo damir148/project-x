@@ -21,7 +21,7 @@
   </label>
   
   <div class="input-group">
-	<!-- <a class="expanded button alert" href="#">Skip</a> -->
+	<!-- <a class="expanded button secondary" href="#step/1">Previous</a> -->
 	<a class="expanded button" href="#step/3">Next</a>
   </div>
 </form>

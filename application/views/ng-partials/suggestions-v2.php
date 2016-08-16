@@ -1,4 +1,73 @@
-<div class="suggestions-v2">
+<div id="live-chat" ng-click="showChat=true">
+	<i class="comment icon"></i>
+</div>
+
+<div id="chat-wrapper" ng-show="showChat">
+	<div id="chat-container">
+		<div class="header">LiveChat Support <i class="angle down icon" ng-click="showChat=false"></i></div>
+		<div class="body">
+			<div class="messageGroup">
+				<div class="messageGroup__date">16 August 2016</div>
+				<div class="messageGroup__time">11:30 PM</div>
+				<div class="messageGroup__wrapper">
+					<div class="messageGroup__innerWrapper"></div>
+					<div class="messageGroup__innerWrapper">
+						<div class="messageGroup__messages">
+							<div class="message message--bot message--undefined">
+								<div class="message__content">
+									<div class="message__textContainer">
+										<div>
+											<div class="message__innerContainer ">
+												<span class="Linkify">
+													<div class="message__text">Hi, we are LiveChat Support.</div>
+												</span>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="message message--bot message--undefined">
+								<div class="message__content">
+									<div class="message__textContainer">
+										<div>
+											<div class="message__innerContainer ">
+												<span class="Linkify">
+													<div class="message__text">How may we assist you today?</div>
+												</span>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div> <!-- /body -->
+		<div class="footer">
+			<div class="footer_innerContainer">
+				<div class="footer_content">
+					<div class="messageInputWrapper">
+						<div class="messageInput ">
+							<div class="messageInput__container">
+								<div class="messageInput__innerContainer">
+									<div class="messageInput__content">
+										<textarea class="messageInput__input" maxlength="3000" placeholder="Ask a question here..." style="height: 26px;"></textarea>
+									</div>
+									<div class="messageInput__buttonWrapper">
+										<button class="messageInput__button messageInput__button--disabled">Send</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div> <!-- /footer -->
+	</div>
+</div>
+
+<div class="suggestions-v2">	
 	<div class="callout suggestions-hero row">
 		<div class="small-8 columns">
 			<h3>Here's what we found!</h3>
@@ -10,7 +79,7 @@
 	</div>
 
 	<hr />
-
+	
 	<div class="free-listing-section">
 		<div class="callout row">
 			<div class="small-7 columns">
