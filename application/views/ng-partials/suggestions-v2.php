@@ -1,10 +1,10 @@
 <div class="suggestions-v2">
 	<div class="callout suggestions-hero row">
-		<div class="small-8 columns">
+		<div class="small-7 columns">
 			<h3>Here's what we found!</h3>
 			<p>We think these solutions best meet your business' needs.</p>
 		</div>
-		<div class="small-4 columns text-right">
+		<div class="small-5 columns text-right">
 			<i class="search icon huge"></i>
 		</div>
 	</div>
@@ -13,12 +13,12 @@
 
 	<div class="free-listing-section">
 		<div class="callout row">
-			<div class="small-8 columns">
+			<div class="small-7 columns">
 				<h5 class="product-title">Free Listing</h5>
 				<p><strong>$0 per month</strong></p>
 				<p>Be found for free with your basic listing.</p>
 			</div>
-			<div class="small-4 columns relative">	
+			<div class="small-5 columns relative">	
 				<a href="#/step/1" class="callout-clickable">Select product now<i class="angle right icon"></i></a>
 				<div class="right-angle">
 					<i class="caret left icon huge"></i>
@@ -40,12 +40,12 @@
 
 	<div class="get-found-listing-section">
 		<div class="callout product-get-found row">
-			<div class="small-8 columns">
+			<div class="small-7 columns">
 				<h5 class="product-title">Get Found</h5>
 				<p><strong>$51 per month</strong></p>
 				<p>Get found where your customers are looking.</p>
 			</div>
-			<div class="small-4 columns relative">
+			<div class="small-5 columns relative">
 				<a href="#/step/1" class="callout-clickable">Select product now<i class="angle right icon"></i></a>
 				<div class="right-angle">
 					<i class="caret left icon huge"></i>
@@ -71,12 +71,12 @@
 
 	<div class="extend-reach-listing-section">
 		<div class="callout product-extend-reach row">
-			<div class="small-8 columns">
+			<div class="small-7 columns">
 				<h5 class="product-title">Extend Reach</h5>
 				<p><strong>$175 per month</strong></p>
 				<p>Put your business in front of a wider audience.</p>
 			</div>
-			<div class="small-4 columns relative">
+			<div class="small-5 columns relative">
 				<a href="#/step/1" class="callout-clickable">Select product now<i class="angle right icon"></i></a>
 				<div class="right-angle">
 					<i class="caret left icon huge"></i>
