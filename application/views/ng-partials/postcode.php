@@ -10,15 +10,15 @@
 
 <div ng-show="selectedArea == 'melb'">
 	<p>Melbourne areas to add</a>
-	<ul class="accordion suburb-accordion" data-accordion data-multi-expand="true">
+	<ul class="accordion suburb-accordion" data-accordion data-allow-all-closed="true" data-multi-expand="true">
 		<li class="accordion-item" data-accordion-item>
 			<a href="#" class="accordion-title">Inner City</a>
 			<div class="accordion-content" data-tab-content>
-				<ul>
+				<ul class="areas">
 					<li 
-						ng-repeat="suburb in ['Albert Park', 'Docklands', 'Flemington', 'Hotham Hill', 'Kensington' ]"
+						ng-repeat="suburb in [ 'Albert Park', 'Docklands', 'Flemington', 'Hotham Hill', 'Kensington' ]"
 						ng-class="{'is-selected':isSelected}"
-			   			ng-click="isSelected= !isSelected">{{suburb}}<span class="active-item">&#10004;</span></li>
+			   			ng-click="isSelected= !isSelected">{{suburb}}<i ng-class="{'outline':!isSelected}" class="check circle icon"></i></li>
 				</ul>
 			</div>
 		</li>
@@ -47,5 +47,4 @@
 			</div>
 		</li>
 	</ul>
-
 </div>

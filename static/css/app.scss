@@ -601,5 +601,16 @@ $product-get-found-color: #ab2281;
 	.close-button {
 		top: 0.7rem;
 	}
+	
+	.check.circle.icon {
+		float: right;
+		font-weight: normal;
+		font-size: 1.8rem;
+		line-height: 1.1rem;
+		opacity: 0.2;
+	}
+	
+	.areas {
+		cursor: pointer;
+	}
 }
-
