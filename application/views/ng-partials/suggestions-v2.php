@@ -95,7 +95,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="columns about" ng-show="showFree">
+		<div class="columns about" ng-show="showFree" ng-class="{'do-animate':showFree}">
 			<h6 class="product-about">About Free listings</h6>
 			<p>Business name, address and phone number will appear in the Yellow Pages and White Pages, both in the book and online.</p>
 			<p>Your email address and website will also appear on Yellow Pages online.</p>
@@ -122,7 +122,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="columns about" ng-show="showFound">
+		<div class="columns about" ng-show="showFound" ng-class="{'do-animate':showFound}">
 			<h6 class="product-about">About Get Found</h6>
 			<ul>
 				<li>Get found where your customers are looking</li>
@@ -153,7 +153,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="columns about" ng-show="showReach">
+		<div class="columns about" ng-show="showReach" ng-class="{'do-animate':showReach}">
 			<h6 class="product-about">About extend reach</h6>
 			<ul>
 				<li>Put your business in front of a wider audience</li>

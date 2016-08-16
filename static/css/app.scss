@@ -625,6 +625,7 @@ $product-get-found-color: #ab2281;
 	     apply all styling in a show/hide animation */
 	  transition: 0.35s linear;
 	  overflow: hidden;
+	  height: 400px;
 	}
 
 	.about:not(.do-animate) {

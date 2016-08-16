@@ -613,6 +613,7 @@ h6 {
 	     apply all styling in a show/hide animation */
   transition: 0.35s linear;
   overflow: hidden;
+  height: 400px;
 }
 
 .suggestions-v2 .about:not(.do-animate) {
