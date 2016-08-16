@@ -96,7 +96,7 @@
 		<p>Perhaps try searching with different options selected or maybe we should have a chat.</p>
 	</div>
 
-	<a class="expanded button" href="#/suggestions/v2"><i class="search icon"></i>Search again</a>
+	<a class="expanded button" href="#/bna"><i class="search icon"></i>Search again</a>
 	<a class="expanded button speak-to-aspeacialist-btn" href="tel:1800000000"><i class="call icon"></i>Speak to a specialist</a>
 </div>
 	
