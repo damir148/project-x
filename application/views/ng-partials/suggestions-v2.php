@@ -1,10 +1,10 @@
 <div class="suggestions-v2">
 	<div class="callout suggestions-hero row">
-		<div class="small-7 columns">
+		<div class="small-8 columns">
 			<h3>Here's what we found!</h3>
 			<p>We think these solutions best meet your business' needs.</p>
 		</div>
-		<div class="small-5 columns text-right">
+		<div class="small-4 columns text-right">
 			<i class="search icon huge"></i>
 		</div>
 	</div>
@@ -19,7 +19,7 @@
 				<p>Be found for free with your basic listing.</p>
 			</div>
 			<div class="small-5 columns relative">	
-				<a href="#/step/1" class="callout-clickable">Select product now<i class="angle right icon"></i></a>
+				<a href="#/step/1" class="callout-clickable text-center">Select product now<i class="angle right icon"></i></a>
 				<div class="right-angle">
 					<i class="caret left icon huge"></i>
 				</div>
@@ -46,7 +46,7 @@
 				<p>Get found where your customers are looking.</p>
 			</div>
 			<div class="small-5 columns relative">
-				<a href="#/step/1" class="callout-clickable">Select product now<i class="angle right icon"></i></a>
+				<a href="#/step/1" class="callout-clickable text-center">Select product now<i class="angle right icon"></i></a>
 				<div class="right-angle">
 					<i class="caret left icon huge"></i>
 				</div>
@@ -77,7 +77,7 @@
 				<p>Put your business in front of a wider audience.</p>
 			</div>
 			<div class="small-5 columns relative">
-				<a href="#/step/1" class="callout-clickable">Select product now<i class="angle right icon"></i></a>
+				<a href="#/step/1" class="callout-clickable text-center">Select product now<i class="angle right icon"></i></a>
 				<div class="right-angle">
 					<i class="caret left icon huge"></i>
 				</div>
