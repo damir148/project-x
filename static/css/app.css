@@ -554,6 +554,10 @@ h6 {
   color: #3d9d46;
 }
 
+.suggestions-v2 .free-listing-section .about.do-animate {
+  height: 150px;
+}
+
 .suggestions-v2 .get-found-listing-section .callout {
   padding-top: 0;
 }
@@ -570,6 +574,10 @@ h6 {
 
 .suggestions-v2 .get-found-listing-section .right-angle {
   color: #eb7a24;
+}
+
+.suggestions-v2 .get-found-listing-section .about.do-animate {
+  height: 126px;
 }
 
 .suggestions-v2 .extend-reach-listing-section .callout {
@@ -590,6 +598,10 @@ h6 {
   color: #de1a80;
 }
 
+.suggestions-v2 .extend-reach-listing-section .about.do-animate {
+  height: 148px;
+}
+
 .suggestions-v2 .extra-info-stuff {
   padding-left: .9375rem;
   padding-right: .9375rem;
@@ -600,7 +612,6 @@ h6 {
   /* this is required as of 1.3x to properlymy-element
 	     apply all styling in a show/hide animation */
   transition: 0.35s linear;
-  height: 150px;
   overflow: hidden;
 }
 
