@@ -569,3 +569,28 @@ $product-get-found-color: #ab2281;
 		margin-bottom: 15px;
 	}
 }
+
+.accordion .accordion-content {
+	select {
+		display: inline-block;
+		width: 49%;
+	}
+	
+	.callout {
+		background-color: beige;
+		cursor: pointer;
+		
+		&.we-are-closed {
+			background-color: #e35858;
+		}
+	}
+	
+	.callout p {
+		text-align: center;
+	}
+	
+	.close-button {
+		top: 0.7rem;
+	}
+}
+

@@ -556,3 +556,25 @@ h6 {
   padding-right: .9375rem;
   margin-bottom: 15px;
 }
+
+.accordion .accordion-content select {
+  display: inline-block;
+  width: 49%;
+}
+
+.accordion .accordion-content .callout {
+  background-color: beige;
+  cursor: pointer;
+}
+
+.accordion .accordion-content .callout.we-are-closed {
+  background-color: #e35858;
+}
+
+.accordion .accordion-content .callout p {
+  text-align: center;
+}
+
+.accordion .accordion-content .close-button {
+  top: 0.7rem;
+}
