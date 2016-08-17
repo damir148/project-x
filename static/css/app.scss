@@ -702,10 +702,6 @@ $product-get-found-color: #ab2281;
 		color: #1e7be2;
 		font-size: 2rem;
 	}
-
-.add.icon {
-		color: #1e7be2;
-	}
 }
 
 #live-chat {
@@ -717,9 +713,9 @@ $product-get-found-color: #ab2281;
 	border-radius: 10px;
 	background-color: #fff;
 	box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.2);
-	font-size: 1.8rem;
+	font-size: 2rem;
 	text-align: center;
-	line-height: 1.8rem;
+	line-height: 2rem;
 	color: #427fe1;
 	opacity: 0.8;
 	cursor: pointer;
@@ -733,7 +729,7 @@ $product-get-found-color: #ab2281;
 
 #chat-wrapper {
 	background-color: #e9eef4;
-	position: absolute;
+	position:fixed;
 	right: 0;
 	top: 0;
 	left: 0;
@@ -810,4 +806,19 @@ $product-get-found-color: #ab2281;
 			}
 		}
 	}
+}
+
+.progress-container {
+	background-color: #000;
+	padding: 17px 10px 10px;
+	position: fixed;
+	height: 50px;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	opacity: 0.8;
+}
+
+#container {
+	padding-bottom: 40px;
 }

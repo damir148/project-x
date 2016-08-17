@@ -1,5 +1,4 @@
-<h3 id="scrollTo">Tell us about your business</h3>
-<p>Enter a few details so we can provide customers with specific information about your business.</p>
+<h3 id="scrollTo">Checkout</h3>
 
 <hr>
 

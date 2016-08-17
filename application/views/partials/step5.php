@@ -13,6 +13,14 @@
   
   <div class="input-group">
 	<!-- <a class="expanded button secondary" href="#step/1">Previous</a> -->
-	<a class="expanded button" href="#step/3">Preview AD</a>
+	<a class="expanded button" href="#step/6">Preview AD</a>
   </div>
 </form>
+
+<div class="progress-container">
+	<div class="secondary progress" role="progressbar" tabindex="0" aria-valuenow="80" aria-valuemin="0" aria-valuetext="80 percent" aria-valuemax="100">
+	  <span class="progress-meter" style="width: 80%">
+	    <p class="progress-meter-text">80%</p>
+	  </span>
+	</div>
+</div>

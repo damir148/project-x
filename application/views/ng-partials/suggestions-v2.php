@@ -68,7 +68,7 @@
 	</div>
 </div>
 
-<div class="suggestions-v2">	
+<div class="suggestions-v2" ng-show="!showChat">	
 	<div class="callout suggestions-hero row">
 		<div class="small-8 columns">
 			<h3>Here's what we found!</h3>

@@ -686,10 +686,6 @@ h6 {
   font-size: 2rem;
 }
 
-.step5 .add.icon {
-  color: #1e7be2;
-}
-
 #live-chat {
   position: fixed;
   bottom: 8px;
@@ -699,9 +695,9 @@ h6 {
   border-radius: 10px;
   background-color: #fff;
   box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.2);
-  font-size: 1.8rem;
+  font-size: 2rem;
   text-align: center;
-  line-height: 1.8rem;
+  line-height: 2rem;
   color: #427fe1;
   opacity: 0.8;
   cursor: pointer;
@@ -715,7 +711,7 @@ h6 {
 
 #chat-wrapper {
   background-color: #e9eef4;
-  position: absolute;
+  position: fixed;
   right: 0;
   top: 0;
   left: 0;
@@ -790,4 +786,19 @@ h6 {
   letter-spacing: 0.08rem;
   padding: 0.5rem 0.9rem;
   text-transform: uppercase;
+}
+
+.progress-container {
+  background-color: #000;
+  padding: 17px 10px 10px;
+  position: fixed;
+  height: 50px;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  opacity: 0.8;
+}
+
+#container {
+  padding-bottom: 40px;
 }
