@@ -13,6 +13,6 @@
   
   <div class="input-group">
 	<!-- <a class="expanded button secondary" href="#step/1">Previous</a> -->
-	<a class="expanded button" href="#step/3">Preview AD;</a>
+	<a class="expanded button" href="#step/3">Preview AD</a>
   </div>
 </form>
