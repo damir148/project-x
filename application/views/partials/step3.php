@@ -2,14 +2,6 @@
 
 <hr>
 
-<div class="secondary progress" role="progressbar" tabindex="0" aria-valuenow="30" aria-valuemin="0" aria-valuetext="30 percent" aria-valuemax="100">
-  <span class="progress-meter" style="width: 30%">
-    <p class="progress-meter-text">30%</p>
-  </span>
-</div>
-
-<hr>
-
 <form class="step3">
 		
 	<ul class="accordion" data-accordion role="tablist" data-allow-all-closed="true" data-multi-expand="true">
@@ -1308,6 +1300,14 @@
 		<a class="expanded button" href="#step/4">Next</a>
 	</div>
 </form>
+
+<div class="progress-container">
+	<div class="secondary progress" role="progressbar" tabindex="0" aria-valuenow="30" aria-valuemin="0" aria-valuetext="30 percent" aria-valuemax="100">
+	  <span class="progress-meter" style="width: 30%">
+	    <p class="progress-meter-text">30%</p>
+	  </span>
+	</div>
+</div>
 
 <script>
 	$(function(){

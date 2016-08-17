@@ -25,3 +25,11 @@
 	<a class="expanded button" href="#step/3">Next</a>
   </div>
 </form>
+
+<div class="progress-container">
+	<div class="secondary progress" role="progressbar" tabindex="0" aria-valuenow="20" aria-valuemin="0" aria-valuetext="20 percent" aria-valuemax="100">
+	  <span class="progress-meter" style="width: 20%">
+	    <p class="progress-meter-text">20%</p>
+	  </span>
+	</div>
+</div>

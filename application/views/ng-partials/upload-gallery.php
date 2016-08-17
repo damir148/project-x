@@ -11,3 +11,11 @@
 <div class="input-group">
 	<a class="expanded button main-btn" href="#/step/5">Next</a>
 </div>
+
+<div class="progress-container">
+	<div class="secondary progress" role="progressbar" tabindex="0" aria-valuenow="70" aria-valuemin="0" aria-valuetext="70 percent" aria-valuemax="100">
+	  <span class="progress-meter" style="width: 70%">
+	    <p class="progress-meter-text">70%</p>
+	  </span>
+	</div>
+</div>
