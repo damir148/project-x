@@ -84,7 +84,11 @@ project.config(function($routeProvider, $locationProvider) {
 						templateUrl: 'home/step/5',
 						controller: 'mainController'
 				})
-		        
+
+				.when('/step/6', {
+						templateUrl: 'home/step/6',
+						controller: 'mainController'
+				})	        
 });
 
 project.controller('redirectHomepage', function(){
