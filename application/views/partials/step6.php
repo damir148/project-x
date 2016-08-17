@@ -14,4 +14,8 @@
 	margin-left: -.9375rem;
 	margin-right: -.9375rem;
 }
+
+#container {
+	padding-bottom: 0;
+}
 </style>
