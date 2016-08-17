@@ -18,14 +18,6 @@
 
 <hr>
 
-<div class="secondary progress" role="progressbar" tabindex="0" aria-valuenow="10" aria-valuemin="0" aria-valuetext="10 percent" aria-valuemax="100">
-  <span class="progress-meter" style="width: 10%">
-    <p class="progress-meter-text">10%</p>
-  </span>
-</div>
-
-<hr>
-
 <form>
   <label>Email Address
     <input type="email" placeholder="example@example.com" aria-describedby="exampleHelpText">
@@ -60,3 +52,11 @@
 	<a class="expanded button" href="#step/2">Next</a>
   </div>
 </form>
+
+<div class="progress-container">
+	<div class="secondary progress" role="progressbar" tabindex="0" aria-valuenow="10" aria-valuemin="0" aria-valuetext="10 percent" aria-valuemax="100">
+	  <span class="progress-meter" style="width: 10%">
+	    <p class="progress-meter-text">10%</p>
+	  </span>
+	</div>
+</div>

@@ -702,10 +702,6 @@ $product-get-found-color: #ab2281;
 		color: #1e7be2;
 		font-size: 2rem;
 	}
-
-.add.icon {
-		color: #1e7be2;
-	}
 }
 
 #live-chat {
@@ -810,4 +806,19 @@ $product-get-found-color: #ab2281;
 			}
 		}
 	}
+}
+
+.progress-container {
+	background-color: #000;
+	padding: 17px 10px 10px;
+	position: fixed;
+	height: 50px;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	opacity: 0.8;
+}
+
+#container {
+	padding-bottom: 40px;
 }

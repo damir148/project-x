@@ -686,10 +686,6 @@ h6 {
   font-size: 2rem;
 }
 
-.step5 .add.icon {
-  color: #1e7be2;
-}
-
 #live-chat {
   position: fixed;
   bottom: 8px;
@@ -790,4 +786,19 @@ h6 {
   letter-spacing: 0.08rem;
   padding: 0.5rem 0.9rem;
   text-transform: uppercase;
+}
+
+.progress-container {
+  background-color: #000;
+  padding: 17px 10px 10px;
+  position: fixed;
+  height: 50px;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  opacity: 0.8;
+}
+
+#container {
+  padding-bottom: 40px;
 }
