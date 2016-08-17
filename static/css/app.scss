@@ -822,3 +822,12 @@ $product-get-found-color: #ab2281;
 #container {
 	padding-bottom: 40px;
 }
+
+.seperator {
+	background-color: #f2f2f2;
+	clear: both;
+	border-top: 1px solid #c2c2c2;
+	border-bottom: 1px solid #c2c2c2;
+	padding: 2%;
+	margin-bottom: 20px;
+}
