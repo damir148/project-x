@@ -9,27 +9,27 @@
   </label>
   <label>How would you sum up your business in one sentence?
     <textarea ng-model="oneSentence" maxlength="100" rows="3"></textarea>
-    <p class="text-right char-limit">{{100 - oneSentence.length}}</p>
+    <p class="text-right char-limit" ng-class="{'limit-reached':oneSentence.length > 100}">{{100 - oneSentence.length}}</p>
   </label>
  <label>Tell us about your unique selling points that sets your business apart from the competition?
    <textarea ng-model="comp" maxlength="100" rows="3"></textarea>
-   <p class="text-right char-limit">{{100 - comp.length}}</p>
+   <p class="text-right char-limit" ng-class="{'limit-reached':comp.length > 100}">{{100 - comp.length}}</p>
  </label>
  <label>What are the key points in the history of your business?
    <textarea ng-model="history" maxlength="100" rows="3"></textarea>
-   <p class="text-right char-limit">{{100 - history.length}}</p>
+   <p class="text-right char-limit" ng-class="{'limit-reached':history.length > 100}">{{100 - history.length}}</p>
  </label>
   <label>What services do you specialise in?
     <textarea ng-model="service" maxlength="100" rows="3"></textarea>
-    <p class="text-right char-limit">{{100 - service.length}}</p>
+    <p class="text-right char-limit" ng-class="{'limit-reached':service.length > 100}">{{100 - service.length}}</p>
   </label>
   <label>What accreditations do you have?
     <textarea ng-model="accreditations" maxlength="100" rows="3"></textarea>
-    <p class="text-right char-limit">{{100 - accreditations.length}}</p>
+    <p class="text-right char-limit" ng-class="{'limit-reached':accreditations.length > 100}">{{100 - accreditations.length}}</p>
   </label>
   <label>Tell us about any package deals you offer.
     <textarea ng-model="packageDeal" maxlength="100" rows="3"></textarea>
-    <p class="text-right char-limit">{{100 - packageDeal.length}}</p>
+    <p class="text-right char-limit" ng-class="{'limit-reached':packageDeal.length > 100}">{{100 - packageDeal.length}}</p>
   </label>
   
   <div class="input-group">
@@ -56,5 +56,9 @@
 
   .input-group {
     margin-top: 15px;
+  }
+
+  .limit-reached {
+    color: red;
   }
 </style>
