@@ -8,22 +8,28 @@
     <input type="text" placeholder="It's cool to be geek">
   </label>
   <label>How would you sum up your business in one sentence?
-    <textarea></textarea>
+    <textarea ng-model="oneSentence" maxlength="100" rows="3"></textarea>
+    <p class="text-right char-limit">{{100 - oneSentence.length}}</p>
   </label>
  <label>Tell us about your unique selling points that sets your business apart from the competition?
-   <textarea></textarea>
+   <textarea ng-model="comp" maxlength="100" rows="3"></textarea>
+   <p class="text-right char-limit">{{100 - comp.length}}</p>
  </label>
  <label>What are the key points in the history of your business?
-   <textarea></textarea>
+   <textarea ng-model="history" maxlength="100" rows="3"></textarea>
+   <p class="text-right char-limit">{{100 - history.length}}</p>
  </label>
   <label>What services do you specialise in?
-    <textarea></textarea>
+    <textarea ng-model="service" maxlength="100" rows="3"></textarea>
+    <p class="text-right char-limit">{{100 - service.length}}</p>
   </label>
   <label>What accreditations do you have?
-    <textarea></textarea>
+    <textarea ng-model="accreditations" maxlength="100" rows="3"></textarea>
+    <p class="text-right char-limit">{{100 - accreditations.length}}</p>
   </label>
   <label>Tell us about any package deals you offer.
-    <textarea></textarea>
+    <textarea ng-model="packageDeal" maxlength="100" rows="3"></textarea>
+    <p class="text-right char-limit">{{100 - packageDeal.length}}</p>
   </label>
   
   <div class="input-group">
@@ -39,3 +45,16 @@
 	  </span>
 	</div>
 </div>
+
+<style>
+  textarea {
+    margin-bottom: 0;
+  }
+  .char-limit {
+    color: #7f8c8d;
+  }
+
+  .input-group {
+    margin-top: 15px;
+  }
+</style>
