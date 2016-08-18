@@ -183,7 +183,7 @@
 			
    		 <div class="callout">
    		   <button class="close-button" aria-label="Close alert" type="button">
-   		     <span aria-hidden="true">&times;</span>
+   		     <span aria-hidden="true" style="display:none;">&times;</span>
    		   </button>
    		   <p>Sorry we're closed!</p>
    		 </div>			
@@ -367,7 +367,7 @@
 			
     		 <div class="callout">
     		   <button class="close-button" aria-label="Close alert" type="button">
-    		     <span aria-hidden="true">&times;</span>
+    		     <span aria-hidden="true" style="display:none;">&times;</span>
     		   </button>
     		   <p>Sorry we're closed!</p>
     		 </div>
@@ -551,7 +551,7 @@
 			
     		 <div class="callout">
     		   <button class="close-button" aria-label="Close alert" type="button">
-    		     <span aria-hidden="true">&times;</span>
+    		     <span aria-hidden="true" style="display:none;">&times;</span>
     		   </button>
     		   <p>Sorry we're closed!</p>
     		 </div>
@@ -735,7 +735,7 @@
 			
     		 <div class="callout">
     		   <button class="close-button" aria-label="Close alert" type="button">
-    		     <span aria-hidden="true">&times;</span>
+    		     <span aria-hidden="true" style="display:none;">&times;</span>
     		   </button>
     		   <p>Sorry we're closed!</p>
     		 </div>
@@ -919,7 +919,7 @@
 			
     		 <div class="callout">
     		   <button class="close-button" aria-label="Close alert" type="button">
-    		     <span aria-hidden="true">&times;</span>
+    		     <span aria-hidden="true" style="display:none;">&times;</span>
     		   </button>
     		   <p>Sorry we're closed!</p>
     		 </div>
@@ -1103,7 +1103,7 @@
 			
     		 <div class="callout we-are-closed">
     		   <button class="close-button" aria-label="Close alert" type="button">
-    		     <span aria-hidden="true">&times;</span>
+    		     <span aria-hidden="true" style="display:none;">&times;</span>
     		   </button>
     		   <p>Sorry we're closed!</p>
     		 </div>
@@ -1287,7 +1287,7 @@
 			
     		 <div class="callout we-are-closed">
     		   <button class="close-button" aria-label="Close alert" type="button">
-    		     <span aria-hidden="true">&times;</span>
+    		     <span aria-hidden="true" style="display:none;">&times;</span>
     		   </button>
     		   <p>Sorry we're closed!</p>
     		 </div>
