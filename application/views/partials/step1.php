@@ -48,8 +48,8 @@
   </label> -->
 
   <div class="input-group">
-	<!-- <a class="expanded button alert" href="#">Skip</a> -->
 	<a class="expanded button" href="#step/2">Next</a>
+	<a class="expanded button secondary" href="#suggestions/v2">Previous</a>
   </div>
 </form>
 

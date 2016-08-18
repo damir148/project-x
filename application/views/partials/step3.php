@@ -1296,8 +1296,8 @@
 	</ul>
 	
   	<div class="input-group">
-		<!-- <a class="expanded button alert" href="#">Skip</a> -->
 		<a class="expanded button" href="#step/4">Next</a>
+		<a class="expanded button secondary" href="#step/3">Previous</a>
 	</div>
 </form>
 

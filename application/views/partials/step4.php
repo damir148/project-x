@@ -28,6 +28,7 @@
   
   <div class="input-group">
     <a class="expanded button" href="#/keywords">Next</a>
+	<a class="expanded button secondary" href="#step/3">Previous</a>
   </div>
 </form>
 
