@@ -18,7 +18,7 @@
 	</div>
 </label>
 
-<div ng-show="selectedArea == 'melbourne'">
+<div ng-show="selectedArea == 'Melbourne'">
 	<p>Melbourne areas to add</a>
 	<ul class="accordion suburb-accordion" data-accordion data-allow-all-closed="true" data-multi-expand="true">
 		<li class="accordion-item" data-accordion-item>
