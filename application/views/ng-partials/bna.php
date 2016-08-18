@@ -21,7 +21,7 @@
 		</div>
 	</label>
 
-	<label>What locations do you offer your services?
+	<!-- <label>What locations do you offer your services?
 		<div ng-repeat="n in ['National', 'States', 'Metro', 'Regional', 'Local', 'Postcode']">
 			<input type="checkbox" value="{{n}}" id="{{n}}"><label for="{{n}}">{{n}}</label>
 		</div>
@@ -29,10 +29,12 @@
 
 	<label>In which postcodes do you offer your services?
 		<input type="text" placeholder="Enter suburb or postcode" />
-	</label>
+	</label> -->
+		
+	<?php $this->load->view('ng-partials/postcode'); ?>
 
 	<label>We found the top 3 Yellow Pages listings in your area and industry, which do you consider to be your competitors?
-		<div ng-repeat="n in ['Company A', 'Company B', 'Company C', 'Other']">
+		<div ng-repeat="n in ['Moorabin Oral Surgery', 'Bayside Oral Surgery', 'Lifestyle Smiles Dental Clinic', 'New Millenium Dental']">
 			<span class="expanded button text-left-important selectable-button"
 			   ng-class="{'is-selected':isSelected}"
 			   ng-click="isSelected= !isSelected">{{ n }}</span>

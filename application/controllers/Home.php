@@ -53,7 +53,7 @@ class Home extends CI_Controller {
 	}
 
 	public function bna() {
-		$this->load->view( "ng-partials/bna.html" );
+		$this->load->view( "ng-partials/bna.php" );
 	}
 
 	public function keywords() {
