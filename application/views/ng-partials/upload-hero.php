@@ -10,6 +10,7 @@
 
 <div class="input-group">
 	<a class="expanded button main-btn" href="#/upload/gallery">Next</a>
+	<a class="expanded button secondary" href="#keywords" style="margin-top:10px;">Previous</a>
 </div>
 
 <div class="progress-container">
