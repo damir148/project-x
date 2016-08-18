@@ -1297,7 +1297,7 @@
 	
   	<div class="input-group">
 		<a class="expanded button" href="#step/4">Next</a>
-		<a class="expanded button secondary" href="#step/3">Previous</a>
+		<a class="expanded button secondary" href="#step/2">Previous</a>
 	</div>
 </form>
 
