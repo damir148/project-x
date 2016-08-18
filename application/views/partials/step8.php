@@ -51,7 +51,7 @@
   <hr>
   
   <div class="input-group">
-	<a class="expanded button" href="#">Next</a>
+	<a class="expanded button" href="#dashboard">Next</a>
 	<a class="expanded button secondary" href="#step/7">Previous</a>
   </div>
 </form>

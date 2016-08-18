@@ -99,6 +99,11 @@ project.config(function($routeProvider, $locationProvider) {
 						templateUrl: 'home/step/8',
 						controller: 'mainController'
 				})
+				
+				.when('/dashboard', {
+						templateUrl: 'home/dashboard',
+						controller: 'mainController'
+				})
 
 });
 

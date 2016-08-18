@@ -63,6 +63,10 @@ class Home extends CI_Controller {
 	public function postcode() {
 		$this->load->view( "ng-partials/postcode.php" );
 	}
+	
+	public function dashboard() {
+		$this->load->view( 'partials/dashboard.php' );
+	}
 
 }
 
