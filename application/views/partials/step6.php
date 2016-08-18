@@ -10,9 +10,9 @@
 </div>
 
 <div class="progress-container">
-	<div class="secondary progress" role="progressbar" tabindex="0" aria-valuenow="70" aria-valuemin="0" aria-valuetext="70 percent" aria-valuemax="100">
-	  <span class="progress-meter" style="width: 70%">
-	    <p class="progress-meter-text">70%</p>
+	<div class="secondary progress" role="progressbar" tabindex="0" aria-valuenow="83" aria-valuemin="0" aria-valuetext="83 percent" aria-valuemax="100">
+	  <span class="progress-meter" style="width: 83%">
+	    <p class="progress-meter-text">83%</p>
 	  </span>
 	</div>
 </div>

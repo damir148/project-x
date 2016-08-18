@@ -64,9 +64,9 @@ label {
 </style>
 
 <div class="progress-container">
-	<div class="secondary progress" role="progressbar" tabindex="0" aria-valuenow="80" aria-valuemin="0" aria-valuetext="80 percent" aria-valuemax="100">
-	  <span class="progress-meter" style="width: 80%">
-	    <p class="progress-meter-text">80%</p>
+	<div class="secondary progress" role="progressbar" tabindex="0" aria-valuenow="86" aria-valuemin="0" aria-valuetext="86 percent" aria-valuemax="100">
+	  <span class="progress-meter" style="width: 86%">
+	    <p class="progress-meter-text">86%</p>
 	  </span>
 	</div>
 </div>
