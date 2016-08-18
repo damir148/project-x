@@ -29,5 +29,6 @@ user_guide_src/cilexer/pycilexer.egg-info/*
 .htaccess
 
 static/prepros.cfg
+prepros.cfg
 
 application/config/database.php
