@@ -24,3 +24,10 @@
 	  </span>
 	</div>
 </div>
+
+<style>
+.step5 .click span {
+    line-height: 39px;
+    vertical-align: bottom;
+}
+</style>
