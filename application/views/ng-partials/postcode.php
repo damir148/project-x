@@ -1,14 +1,24 @@
 <!-- <h3>Where do you offer your service?</h3> -->
 
-<label>Where do you offer your service?
+<!-- <label>Where do you offer your service?
 	<select ng-model="selectedArea">
 		<option value="" selected="selected">Enter suburb, town, city, or postcode</option>
 		<option value="melb">Melbourne</option>
 		<option value="syd">Sydney</option>
 	</select>
+</label> -->
+
+<label>Where do you offer your service?
+	<div class="ui input fluid" style="margin-bottom: 15px;">
+		<input list="areas" name="areas" placeholder="Enter suburb, town, city, or postcode" ng-model="selectedArea">
+		<datalist id="areas">
+			<option value="Melbourne">
+			<option value="Sydney">
+		</datalist>
+	</div>
 </label>
 
-<div ng-show="selectedArea == 'melb'">
+<div ng-show="selectedArea == 'melbourne'">
 	<p>Melbourne areas to add</a>
 	<ul class="accordion suburb-accordion" data-accordion data-allow-all-closed="true" data-multi-expand="true">
 		<li class="accordion-item" data-accordion-item>
