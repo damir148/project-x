@@ -28,7 +28,7 @@
 					<li 
 						ng-repeat="suburb in [ 'Albert Park', 'Docklands', 'Flemington', 'Hotham Hill', 'Kensington' ]"
 						ng-class="{'is-selected':isSelected}"
-			   			ng-click="isSelected= !isSelected">{{suburb}}<i ng-class="{'outline':!isSelected}" class="check circle icon"></i></li>
+			   			ng-click="isSelected= !isSelected; enableRecommendation();">{{suburb}}<i ng-class="{'outline':!isSelected}" class="check circle icon"></i></li>
 				</ul>
 			</div>
 		</li>
@@ -39,7 +39,7 @@
 					<li 
 						ng-repeat="suburb in [ 'Bentleigh', 'Brighton', 'Birghton East', 'Elwood', 'Moorabbin' ]"
 						ng-class="{'is-selected':isSelected}"
-			   			ng-click="isSelected= !isSelected">{{suburb}}<i ng-class="{'outline':!isSelected}" class="check circle icon"></i></li>
+			   			ng-click="isSelected= !isSelected; enableRecommendation();">{{suburb}}<i ng-class="{'outline':!isSelected}" class="check circle icon"></i></li>
 				</ul>
 			</div>
 		</li>

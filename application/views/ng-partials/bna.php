@@ -33,15 +33,18 @@
 		
 	<?php $this->load->view('ng-partials/postcode'); ?>
 
-	<label>We found the top 4 Yellow Pages listings in your area and industry, which do you consider to be your competitors?
-		<div ng-repeat="n in ['Moorabbin Oral Surgery', 'Bayside Oral Surgery', 'Lifestyle Smiles Dental Clinic', 'New Millenium Dental']">
-			<span class="expanded button text-left-important selectable-button"
-			   ng-class="{'is-selected':isSelected}"
-			   ng-click="isSelected= !isSelected">{{ n }}</span>
-		</div>
-	</label>
+	<div ng-show="showRecommendation">
+		<label>We found the top 4 Yellow Pages listings in your area and industry, which do you consider to be your competitors?
+			<div ng-repeat="n in ['Moorabbin Oral Surgery', 'Bayside Oral Surgery', 'Lifestyle Smiles Dental Clinic', 'New Millenium Dental']">
+				<span class="expanded button text-left-important selectable-button"
+				   ng-class="{'is-selected':isSelected}"
+				   ng-click="isSelected= !isSelected">{{ n }}</span>
+			</div>
+		</label>
+		
 
-	<div class="input-group">
-		<a class="expanded button main-btn" href="#/suggestions/v2">Next</a>
+		<div class="input-group">
+			<a class="expanded button main-btn" href="#/suggestions/v2">Next</a>
+		</div>
 	</div>
 </form>
