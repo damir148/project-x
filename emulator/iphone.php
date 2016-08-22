@@ -20,11 +20,11 @@ td {
   padding: 5px;
 }
 #iphone {
-	margin-top:-80px;
-	position:fixed;
+/*	position:fixed;*/
 	background:url("phone.jpg");
 	width:507px;
 	height:855px;	
+	margin: -20px auto 0;
 }
 #iphone1 {
 	margin-top:-80px;

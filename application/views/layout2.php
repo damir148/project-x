@@ -12,12 +12,17 @@
 				width: 100%;
 				height: auto;
 			}
+			
+			body {
+				max-width: 420px;
+				margin: 0 auto;
+			}
 		</style>
 	</head>
 	<body>
-		<img src="/static/img/homepage_01.jpg" />
-		<a href="/#/bna">
-			<img src="/static/img/homepage_02.jpg" />
+		<img src="<?php echo base_url(); ?>static/img/homepage_01.jpg" />
+		<a href="<?php echo base_url(); ?>#/bna">
+			<img src="<?php echo base_url(); ?>static/img/homepage_02.jpg" />
 		</a>
 	</body>
 </html>
