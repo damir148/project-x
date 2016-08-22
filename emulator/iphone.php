@@ -25,6 +25,7 @@ td {
 	width:320px;
 	height:660px;	
 	margin: 0 auto;
+	position: relative;
 }
 #iphone1 {
 	margin-top:-80px;
@@ -49,6 +50,9 @@ td {
 -webkit-box-shadow: inset -5px -5px 5px 5px#888;
 box-shadow: inset -5px -5px 5px 5px #888;
 	margin-top:107px;
+}
+.if iframe body {
+	min-width: auto !important;
 }
 .black2 {
 	width:18px;
