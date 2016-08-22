@@ -1,5 +1,7 @@
 <div class="rushed-job-at-its-finest">
-	<img src="<?php echo base_url(); ?>static/img/dashboard/dashboard1.gif" />
+	<a href="#/dashboard02">
+		<img src="<?php echo base_url(); ?>static/img/dashboard/dashboard1.gif" />
+	</a>
 </div>
 
 <style>

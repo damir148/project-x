@@ -105,6 +105,10 @@ project.config(function($routeProvider, $locationProvider) {
 						controller: 'mainController'
 				})
 
+				.when('/dashboard02', {
+						templateUrl: 'home/dashboard02',
+						controller: 'mainController'
+				})
 });
 
 project.controller('redirectHomepage', function(){
@@ -128,8 +132,12 @@ project.controller( 'bnaController', function($scope) {
   	$scope.activeButton = function() {
     	$scope.isActive = !$scope.isActive;
   	}
-	
-  	console.log('test');
+
+  	$scope.showRecommendation = false;
+
+  	$scope.enableRecommendation = function() {
+    	$scope.showRecommendation = true;
+  	}
 });
 
 // snippet from http://plnkr.co/edit/y5n16v?p=preview
