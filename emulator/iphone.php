@@ -20,11 +20,11 @@ td {
   padding: 5px;
 }
 #iphone {
-/*	position:fixed;*/
-	background:url("phone.jpg");
-	width:507px;
-	height:855px;	
-	margin: -20px auto 0;
+/*	position:fixed;
+*/	background:url("iphone_6copy.png") no-repeat;
+	width:320px;
+	height:660px;	
+	margin: 0 auto;
 }
 #iphone1 {
 	margin-top:-80px;
@@ -44,11 +44,11 @@ td {
 }
 
 .if {
-	margin-left:85px;
+	margin-left:24px;
 	-moz-box-shadow: inset -5px -5px 5px 5px #888;
 -webkit-box-shadow: inset -5px -5px 5px 5px#888;
 box-shadow: inset -5px -5px 5px 5px #888;
-	margin-top:167px;
+	margin-top:107px;
 }
 .black2 {
 	width:18px;
@@ -78,8 +78,8 @@ box-shadow: inset -5px -5px 5px 5px #888;
 <?php if(!isset($_GET["count"])) {
 	?>
 <div id="iphone">
-<iframe class="if" id="if" src="http://<?php echo $_GET["url"]; ?>" width="335" height="480" frameborder="0"></iframe></div>
-<div class="black"></div>
+<iframe class="if" id="if" src="http://<?php echo $_GET["url"]; ?>" width="274" height="470" frameborder="0"></iframe></div>
+<!-- <div class="black"></div> -->
 <?php } else { ?>
 <div id="iphone1">
 <iframe class="if" id="if" src="http://<?php echo $_GET["url1"]; ?>" width="335" height="480" frameborder="0"></iframe></div>
