@@ -105,6 +105,10 @@ project.config(function($routeProvider, $locationProvider) {
 						controller: 'mainController'
 				})
 
+				.when('/dashboard02', {
+						templateUrl: 'home/dashboard02',
+						controller: 'mainController'
+				})
 });
 
 project.controller('redirectHomepage', function(){
