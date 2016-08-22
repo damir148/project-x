@@ -8,10 +8,15 @@ class Check extends CI_Controller {
 			redirect(base_url().'homepage/index', 'refresh');
 		}
 		else {
-			redirect(base_url().'emulator/iphone.php?url=mysensis-poc.laws-sensis.com.au', 'refresh');
+			$extra = '';
+		 	if ( $this->agent->platform() == 'Mac OS X') {
+				$extra = '&mac=1';
+			}
+			
+			redirect(base_url().'emulator/iphone.php?url=mysensis-poc.laws-sensis.com.au'.$extra, 'refresh');
 		}
 	}
-
+	
 }
 
 /* End of file Home.php */
