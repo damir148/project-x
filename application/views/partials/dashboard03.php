@@ -3,7 +3,9 @@
 		<img src="static/img/dashboard/03/01.jpg" />
 	</a>
 	<img src="static/img/dashboard/03/02.jpg" />
-	<img src="static/img/dashboard/03/03.jpg" />
+	<a href="#/dashboard04">
+		<img src="static/img/dashboard/03/03.jpg" />
+	</a>
 	<img src="static/img/dashboard/03/04.jpg" />
 	<img src="static/img/dashboard/03/05.jpg" />
 	<img src="static/img/dashboard/03/06.jpg" />
