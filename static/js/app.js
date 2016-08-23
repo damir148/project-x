@@ -60,55 +60,65 @@ project.config(function($routeProvider, $locationProvider) {
 				templateUrl: 'home/keywords'
 			})
 				
-				.when('/step/1', {
-						templateUrl: 'home/step/1',
-						controller: 'mainController'
-				})
-				
-				.when('/step/2', {
-						templateUrl: 'home/step/2',
-						controller: 'mainController'
-				})
-				
-				.when('/step/3', {
-						templateUrl: 'home/step/3',
-						controller: 'mainController'
-				})
-				
-				.when('/step/4', {
-						templateUrl: 'home/step/4',
-						controller: 'mainController'
-				})
-				
-				.when('/step/5', {
-						templateUrl: 'home/step/5',
-						controller: 'mainController'
-				})
-				
-				.when('/step/6', {
-						templateUrl: 'home/step/6',
-						controller: 'mainController'
-				})
-				
-				.when('/step/7', {
-						templateUrl: 'home/step/7',
-						controller: 'mainController'
-				})
-				
-				.when('/step/8', {
-						templateUrl: 'home/step/8',
-						controller: 'mainController'
-				})
-				
-				.when('/dashboard', {
-						templateUrl: 'home/dashboard',
-						controller: 'mainController'
-				})
+			.when('/step/1', {
+					templateUrl: 'home/step/1',
+					controller: 'mainController'
+			})
+			
+			.when('/step/2', {
+					templateUrl: 'home/step/2',
+					controller: 'mainController'
+			})
+			
+			.when('/step/3', {
+					templateUrl: 'home/step/3',
+					controller: 'mainController'
+			})
+			
+			.when('/step/4', {
+					templateUrl: 'home/step/4',
+					controller: 'mainController'
+			})
+			
+			.when('/step/5', {
+					templateUrl: 'home/step/5',
+					controller: 'mainController'
+			})
+			
+			.when('/step/6', {
+					templateUrl: 'home/step/6',
+					controller: 'mainController'
+			})
+			
+			.when('/step/7', {
+					templateUrl: 'home/step/7',
+					controller: 'mainController'
+			})
+			
+			.when('/step/8', {
+					templateUrl: 'home/step/8',
+					controller: 'mainController'
+			})
+			
+			.when('/dashboard', {
+					templateUrl: 'home/dashboard',
+					controller: 'mainController'
+			})
 
-				.when('/dashboard02', {
-						templateUrl: 'home/dashboard02',
-						controller: 'mainController'
-				})
+			.when('/dashboard02', {
+					templateUrl: 'home/dashboard02',
+					controller: 'mainController'
+			})
+
+			.when('/dashboard03', {
+					templateUrl: 'home/dashboard03',
+					controller: 'mainController'
+			})
+
+			.when('/dashboard04', {
+					templateUrl: 'home/dashboard04',
+					controller: 'mainController'
+			})
 });
 
 project.controller('redirectHomepage', function(){

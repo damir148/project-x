@@ -71,6 +71,14 @@ class Home extends CI_Controller {
 	public function dashboard02() {
 		$this->load->view( 'partials/dashboard02.php' );
 	}
+
+	public function dashboard03() {
+		$this->load->view( 'partials/dashboard03.php' );
+	}
+
+	public function dashboard04() {
+		$this->load->view( 'partials/dashboard04.php' );
+	}
 }
 
 /* End of file Home.php */
