@@ -125,7 +125,7 @@ project.controller('form2Controller', function($scope) {
 	// slowScroll();
 });
 
-project.controller( 'bnaController', function($scope) {
+project.controller( 'bnaController', function($scope, $location) {
 	$(document).foundation();
 
 	$scope.isActive = false;
@@ -137,6 +137,10 @@ project.controller( 'bnaController', function($scope) {
 
   	$scope.enableRecommendation = function() {
     	$scope.showRecommendation = true;
+  	}
+
+  	$scope.maybeRedirect = function($url) {
+  		$location.path($url);
   	}
 });
 

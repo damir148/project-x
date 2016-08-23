@@ -41,10 +41,21 @@
 				   ng-click="isSelected= !isSelected">{{ n }}</span>
 			</div>
 		</label>
-		
-
-		<div class="input-group">
-			<a class="expanded button main-btn" href="#/suggestions/v2">Next</a>
-		</div>
 	</div>
+	<input ng-click="maybeRedirect('suggestions/v2')"
+			ng-disabled="!showRecommendation"
+			name="submit"
+			id="submit"
+			class="submit button"
+			type="submit" 
+			value="Next" />
 </form>
+
+<style>
+	input[type=submit] {
+		width: 100%;
+	}
+	input:disabled {
+		background-color: black;
+	}
+</style>
