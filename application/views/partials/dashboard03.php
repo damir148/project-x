@@ -21,6 +21,10 @@
 	.rushed-job-at-its-finest {
 		margin-left: -.9375rem;
 		margin-right: -.9375rem;
-		padding-bottom: 5%;
+		padding-bottom: 0;
+	}
+
+	#container {
+		padding-bottom: 0;
 	}
 </style>
