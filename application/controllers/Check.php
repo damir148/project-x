@@ -13,7 +13,7 @@ class Check extends CI_Controller {
 				$extra = '&mac=1';
 			}
 			
-			redirect(base_url().'emulator/iphone.php?url=mysensis-poc.laws-sensis.com.au'.$extra, 'refresh');
+			redirect(base_url().'emulator/iphone.php?url='.base_url().$extra, 'refresh');
 		}
 	}
 	

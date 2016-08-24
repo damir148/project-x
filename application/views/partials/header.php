@@ -13,10 +13,16 @@
     <link rel="stylesheet" href="static/css/foundation.min.css">
     <link href="static/css/app.css?<?php echo filemtime('static/css/app.css'); ?>" rel="stylesheet">
 	
+	<?php if ( ! $this->agent->is_mobile()) : ?>
+		<style>
+			#container { padding-bottom: 120px; }
+		</style>
+	<?php endif; ?>
+	
     <script>
       var BASE_URL = "<?php echo base_url(); ?>";
     </script>
-
+	
   </head>
 
   <body>
