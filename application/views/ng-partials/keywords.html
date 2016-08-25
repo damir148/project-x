@@ -6,11 +6,12 @@
 <div class="inline" ng-repeat="n in ['building contractors', 'construction', 'building services', 'residential builders', 'home construction', 'building desgin and construction' ,'building projects', 'latest building technology', 'architecture', 'building works' ]">
 	<span class="button text-left-important selectable-button"
 	   ng-class="{'is-selected':isSelected}"
-	   ng-click="isSelected= !isSelected">{{ n }} +</span>
+	   ng-click="isSelected= !isSelected">{{ n }} <i ng-class="{'checkmark':isSelected, 'plus':!isSelected}" class="icon"></i></span>
 </div>
 
-<div class="input-group">
-	<button class="expanded button main-btn" style="margin-bottom: 10px; background-color: #c3c3c3;">Show more</button>
+<div class="keywords input-group">
+	<button class="expanded button main-btn" style="margin-bottom: 10px; background-color: #c3c3c3;">Show more <i class="angle down icon"></i></button>
+	<br>
 	<a class="expanded button main-btn" href="#/upload/hero">Next</a>
 	<a class="expanded button secondary" href="#step/4" style="margin-top:10px;">Previous</a>
 </div>

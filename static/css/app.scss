@@ -228,6 +228,20 @@ $product-get-found-color: #ab2281;
 	margin-bottom: 5%;
 }
 
+.step3 {
+	margin-top: 30px;
+	
+	.accordion-title {
+		color: #000;
+		font-weight: bold;
+		font-size: 1rem;
+		
+		&:before {
+			color: #3d9d46;
+		}
+	}
+}
+
 .time-range p {
     font-family:"Arial", sans-serif;
     font-size:14px;
@@ -455,15 +469,17 @@ $product-get-found-color: #ab2281;
 		}
 		
 		&.house::before {
-			content: url('../img/step1/house.gif');			
+			content: url('../img/step1/house_light_green.png');	
+			width: 72px;		
 		}
 		
 		&.billboard::before {
-			content: url('../img/step1/billboard.gif');			
+			content: url('../img/step1/billboard_light_green.png');
+			width: 72px;
 		}
 		
 		&.acorns::before {
-			content: url('../img/step1/acorns.gif');			
+			content: url('../img/step1/acorns_light_green.png');			
 		}
 	}
 }
@@ -646,8 +662,9 @@ $product-get-found-color: #ab2281;
 	}
 	
 	.callout {
-		background-color: beige;
+		background-color: lightgrey;
 		cursor: pointer;
+		font-weight: bold;
 		
 		&.we-are-closed {
 			background-color: #e35858;
@@ -831,4 +848,9 @@ $product-get-found-color: #ab2281;
 	border-bottom: 1px solid #c2c2c2;
 	padding: 2%;
 	margin-bottom: 20px;
+}
+
+.keywords.input-group button {
+	color: #3d9d46;
+	background-color: transparent !important;
 }

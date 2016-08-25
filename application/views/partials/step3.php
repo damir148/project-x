@@ -45,9 +45,9 @@
 				<option>7:45</option>
 				<option>8:00</option>
 				<option>8:15</option>
-				<option>8:30</option>
+				<option selected>8:30</option>
 				<option>8:45</option>
-				<option selected>9:00</option>
+				<option>9:00</option>
 				<option>9:15</option>
 				<option>9:30</option>
 				<option>9:45</option>
@@ -132,9 +132,9 @@
 				<option>4:15</option>
 				<option>4:30</option>
 				<option>4:45</option>
-				<option selected>5:00</option>
+				<option>5:00</option>
 				<option>5:15</option>
-				<option>5:30</option>
+				<option selected>5:30</option>
 				<option>5:45</option>
 				<option>6:00</option>
 				<option>6:15</option>
@@ -185,7 +185,7 @@
    		   <button class="close-button" aria-label="Close alert" type="button">
    		     <span aria-hidden="true" style="display:none;">&times;</span>
    		   </button>
-   		   <p>Sorry we're closed!</p>
+   		   <p>We're closed</p>
    		 </div>			
 	    </div>
 	  </li>
@@ -229,9 +229,9 @@
  				<option>7:45</option>
  				<option>8:00</option>
  				<option>8:15</option>
- 				<option>8:30</option>
+ 				<option selected>8:30</option>
  				<option>8:45</option>
- 				<option selected>9:00</option>
+ 				<option>9:00</option>
  				<option>9:15</option>
  				<option>9:30</option>
  				<option>9:45</option>
@@ -316,9 +316,9 @@
  				<option>4:15</option>
  				<option>4:30</option>
  				<option>4:45</option>
- 				<option selected>5:00</option>
+ 				<option>5:00</option>
  				<option>5:15</option>
- 				<option>5:30</option>
+ 				<option selected>5:30</option>
  				<option>5:45</option>
  				<option>6:00</option>
  				<option>6:15</option>
@@ -369,7 +369,7 @@
     		   <button class="close-button" aria-label="Close alert" type="button">
     		     <span aria-hidden="true" style="display:none;">&times;</span>
     		   </button>
-    		   <p>Sorry we're closed!</p>
+    		   <p>We're closed</p>
     		 </div>
 	    </div>
 	  </li>
@@ -413,9 +413,9 @@
  				<option>7:45</option>
  				<option>8:00</option>
  				<option>8:15</option>
- 				<option>8:30</option>
+ 				<option selected>8:30</option>
  				<option>8:45</option>
- 				<option selected>9:00</option>
+ 				<option>9:00</option>
  				<option>9:15</option>
  				<option>9:30</option>
  				<option>9:45</option>
@@ -500,9 +500,9 @@
  				<option>4:15</option>
  				<option>4:30</option>
  				<option>4:45</option>
- 				<option selected>5:00</option>
+ 				<option>5:00</option>
  				<option>5:15</option>
- 				<option>5:30</option>
+ 				<option selected>5:30</option>
  				<option>5:45</option>
  				<option>6:00</option>
  				<option>6:15</option>
@@ -553,7 +553,7 @@
     		   <button class="close-button" aria-label="Close alert" type="button">
     		     <span aria-hidden="true" style="display:none;">&times;</span>
     		   </button>
-    		   <p>Sorry we're closed!</p>
+    		   <p>We're closed</p>
     		 </div>
 	    </div>
 	  </li>
@@ -597,9 +597,9 @@
  				<option>7:45</option>
  				<option>8:00</option>
  				<option>8:15</option>
- 				<option>8:30</option>
+ 				<option selected>8:30</option>
  				<option>8:45</option>
- 				<option selected>9:00</option>
+ 				<option>9:00</option>
  				<option>9:15</option>
  				<option>9:30</option>
  				<option>9:45</option>
@@ -684,9 +684,9 @@
  				<option>4:15</option>
  				<option>4:30</option>
  				<option>4:45</option>
- 				<option selected>5:00</option>
+ 				<option>5:00</option>
  				<option>5:15</option>
- 				<option>5:30</option>
+ 				<option selected>5:30</option>
  				<option>5:45</option>
  				<option>6:00</option>
  				<option>6:15</option>
@@ -737,7 +737,7 @@
     		   <button class="close-button" aria-label="Close alert" type="button">
     		     <span aria-hidden="true" style="display:none;">&times;</span>
     		   </button>
-    		   <p>Sorry we're closed!</p>
+    		   <p>We're closed</p>
     		 </div>
 	    </div>
 	  </li>
@@ -781,9 +781,9 @@
  				<option>7:45</option>
  				<option>8:00</option>
  				<option>8:15</option>
- 				<option>8:30</option>
+ 				<option selected>8:30</option>
  				<option>8:45</option>
- 				<option selected>9:00</option>
+ 				<option>9:00</option>
  				<option>9:15</option>
  				<option>9:30</option>
  				<option>9:45</option>
@@ -868,9 +868,9 @@
  				<option>4:15</option>
  				<option>4:30</option>
  				<option>4:45</option>
- 				<option selected>5:00</option>
+ 				<option>5:00</option>
  				<option>5:15</option>
- 				<option>5:30</option>
+ 				<option selected>5:30</option>
  				<option>5:45</option>
  				<option>6:00</option>
  				<option>6:15</option>
@@ -921,7 +921,7 @@
     		   <button class="close-button" aria-label="Close alert" type="button">
     		     <span aria-hidden="true" style="display:none;">&times;</span>
     		   </button>
-    		   <p>Sorry we're closed!</p>
+    		   <p>We're closed</p>
     		 </div>
 	    </div>
 	  </li>
@@ -1105,7 +1105,7 @@
     		   <button class="close-button" aria-label="Close alert" type="button">
     		     <span aria-hidden="true" style="display:none;">&times;</span>
     		   </button>
-    		   <p>Sorry we're closed!</p>
+    		   <p>We're closed</p>
     		 </div>
 	    </div>
 	  </li>
@@ -1289,7 +1289,7 @@
     		   <button class="close-button" aria-label="Close alert" type="button">
     		     <span aria-hidden="true" style="display:none;">&times;</span>
     		   </button>
-    		   <p>Sorry we're closed!</p>
+    		   <p>We're closed</p>
     		 </div>
 	    </div>
 	  </li>

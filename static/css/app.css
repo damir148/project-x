@@ -220,6 +220,20 @@ h6 {
   margin-bottom: 5%;
 }
 
+.step3 {
+  margin-top: 30px;
+}
+
+.step3 .accordion-title {
+  color: #000;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.step3 .accordion-title:before {
+  color: #3d9d46;
+}
+
 .time-range p {
   font-family: "Arial", sans-serif;
   font-size: 14px;
@@ -456,15 +470,17 @@ h6 {
 }
 
 .top-info li.house::before {
-  content: url("../img/step1/house.gif");
+  content: url("../img/step1/house_light_green.png");
+  width: 72px;
 }
 
 .top-info li.billboard::before {
-  content: url("../img/step1/billboard.gif");
+  content: url("../img/step1/billboard_light_green.png");
+  width: 72px;
 }
 
 .top-info li.acorns::before {
-  content: url("../img/step1/acorns.gif");
+  content: url("../img/step1/acorns_light_green.png");
 }
 
 .suggestions-v2 .callout {
@@ -631,8 +647,9 @@ h6 {
 }
 
 .accordion .accordion-content .callout {
-  background-color: beige;
+  background-color: lightgrey;
   cursor: pointer;
+  font-weight: bold;
 }
 
 .accordion .accordion-content .callout.we-are-closed {
@@ -811,4 +828,9 @@ h6 {
   border-bottom: 1px solid #c2c2c2;
   padding: 2%;
   margin-bottom: 20px;
+}
+
+.keywords.input-group button {
+  color: #3d9d46;
+  background-color: transparent !important;
 }

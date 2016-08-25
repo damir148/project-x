@@ -27,9 +27,9 @@
 </form>
 
 <div class="progress-container">
-	<div class="secondary progress" role="progressbar" tabindex="0" aria-valuenow="20" aria-valuemin="0" aria-valuetext="20 percent" aria-valuemax="100">
-	  <span class="progress-meter" style="width: 20%">
-	    <p class="progress-meter-text">20%</p>
+	<div class="secondary progress" role="progressbar" tabindex="0" aria-valuenow="17" aria-valuemin="0" aria-valuetext="17 percent" aria-valuemax="100">
+	  <span class="progress-meter" style="width: 17%">
+	    <p class="progress-meter-text">17%</p>
 	  </span>
 	</div>
 </div>
