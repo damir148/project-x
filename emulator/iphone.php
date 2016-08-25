@@ -2,6 +2,7 @@
 	<head>
 		<title>Sensis</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="../static/css/normalize.css">
 		<style>
 			/** {
 				margin: 0;
@@ -32,15 +33,15 @@
 			
 			#inner {
 				margin: 120px 33px 0 37px;
-				width: 452px;
+				width: 457px;
 				height: 100%;
 			}	
 			
 			#right-cover {
 				position: absolute;
 				top: 0;
-				right: 23px;
-				width: 10px;
+				right: 10px;
+				width: 25px;
 				background: #dcdfe6;
 				height: 100%;
 				z-index: 9999;
