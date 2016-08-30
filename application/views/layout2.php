@@ -18,6 +18,10 @@
 				max-width: 420px;
 				margin: 0 auto;
 			}*/
+				
+			<?php if ( ! $this->agent->is_mobile()) : ?>
+				body { padding-right: 16px; }
+			<?php endif; ?>
 		</style>
 	</head>
 	<body>
