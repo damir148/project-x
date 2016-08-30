@@ -16,14 +16,14 @@
 				left: 0;
 				right: 0;
 				background: url('iphone_6.png') no-repeat;
-				background-position: center -50px;
+				background-position: center 0;
 				padding: 0;
 				margin: 0;
 			}
 			
 			#container {
 				max-width: 512px;
-				height: 100%;
+				height: 1053px;
 				margin: 0 auto;
 				position: relative;
 				left: 0;
@@ -32,18 +32,18 @@
 			}
 			
 			#inner {
-				margin: 120px 33px 0 37px;
+				margin: 170px 33px 0 37px;
 				width: 457px;
-				height: 100%;
+				height: 751px;
 			}	
 			
 			#right-cover {
 				position: absolute;
-				top: 0;
-				right: 10px;
-				width: 25px;
+				top: 125px;
+				right: 14px;
+				width: 20px;
 				background: #dcdfe6;
-				height: 100%;
+				height: 810px;
 				z-index: 9999;
 			}
 		</style>
