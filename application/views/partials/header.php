@@ -15,7 +15,8 @@
 	
 	<?php if ( ! $this->agent->is_mobile()) : ?>
 		<style>
-			#container { padding-bottom: 120px; }
+			#container { padding-right: 30px; }
+			#live-chat { right: 23px; }
 		</style>
 	<?php endif; ?>
 	

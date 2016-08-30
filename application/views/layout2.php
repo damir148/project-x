@@ -18,10 +18,6 @@
 				max-width: 420px;
 				margin: 0 auto;
 			}*/
-				
-			<?php if ( ! $this->agent->is_mobile()) : ?>
-				body { margin-bottom: 100px; }
-			<?php endif; ?>
 		</style>
 	</head>
 	<body>
